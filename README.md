@@ -1,7 +1,7 @@
 # MiniProjet-Web-Sémantique
 
 # Membres du groupe
-Ilan SOUSSAN - AUrélien NICOLLE - Antoine DARRAS - Gabriel ENRIQUEZ
+Ilan SOUSSAN - Aurélien NICOLLE - Antoine DARRAS - Gabriel ENRIQUEZ
 
 
 # Code Python
