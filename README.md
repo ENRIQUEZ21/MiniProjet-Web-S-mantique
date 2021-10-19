@@ -1,1 +1,1 @@
-# MiniProjet-Web-S-mantique
+# MiniProjet-Web-Sémantique
