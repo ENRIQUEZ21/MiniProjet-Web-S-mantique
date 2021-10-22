@@ -16,6 +16,9 @@ Pour l'instant, le fichier convert_csv_to_ttl.py essaie de convertir test1.csv e
 Le code utilisé dans ce fichier est basé sur celui trouvé dans le repository GitHub suivant: 
 https://github.com/r4isstatic/csv-to-ttl dans le fichier csv-ttl-convert-v1.py 
 
+# Plan de réalisation
+- implémenter en local
+- créer l'interface
 
 # Fichier d'initialisation .ini
 
