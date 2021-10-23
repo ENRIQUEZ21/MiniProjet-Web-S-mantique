@@ -5,6 +5,7 @@
 import csv
 
 
+
 tryFile = open('test1.csv', encoding="utf8") # Opening of test1.csv file and assignment of it to tryFile variable
 reader = csv.reader(tryFile, delimiter=";") # This variable will permit us to manipulate data of test1.csv file
 
@@ -22,9 +23,23 @@ rownum = 0
 for row in reader:
     if (rownum < row_start):
         pass
-    else: # place the contents of the row into the 'c' variable, then create a 'd' that we will write in our TTL file
-        c = row
-        d = "d: p:est " + "d:"+c[0]  +", d:"+ c[1] +", d:"+  c[2] +", d:"+  c[3] +", d:"+  c[4]+".\n"
+    else:
+        size = len(row)
+        l=[] # l is an array that we will use to produce our final string of characters of TTL code
+        l.append("d:L"+str(rownum-row_start))
+        for i in range(size): # In function of the different cases: end of line, type of the value, we add an appropriate TTL code to our l variable
+            # Depending of type of values
+            if type(row[i].__class__) == float.__class__ or type(row[i].__class__) == int.__class__:
+                l.append(" p:P" + str(i) + " \"" + row[i] + "\"")
+            else:
+                l.append(" p:P" + str(i) + " d:" + row[i])
+            # Depending of if it is end of line or no
+            if i == (size-1):
+                l.append(".\n")
+            else:
+                l.append(";\n\t")
+
+        d = ''.join(l)
         outfile_ttl.write(d)
     rownum+=1 # add 1 to rownum to pass to following line
 
