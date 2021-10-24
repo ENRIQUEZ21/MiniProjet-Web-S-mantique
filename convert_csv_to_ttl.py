@@ -29,7 +29,7 @@ for row in reader:
         l.append("d:L"+str(rownum-row_start))
         for i in range(size): # In function of the different cases: end of line, type of the value, we add an appropriate TTL code to our l variable
             # Depending of type of values
-            if type(row[i].__class__) == float.__class__ or type(row[i].__class__) == int.__class__:
+            if type(row[i]) == float or type(row[i]) == int:
                 l.append(" p:P" + str(i) + " \"" + row[i] + "\"")
             else:
                 l.append(" p:P" + str(i) + " d:" + row[i])
