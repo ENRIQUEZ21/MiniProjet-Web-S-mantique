@@ -1,9 +1,9 @@
 # Date: from 22/10/2021 to ...
 # Authors: Gabriel ENRIQUEZ - Ilan SOUSSAN - Antoine DARRAS - Aurélien NICOLLE
 
-# Importation of CSV module
+# Importation of csv module to use CSV file and re module to see if a word contains valid characters
 import csv
-
+import re
 
 
 tryFile = open('test1.csv', encoding="utf8") # Opening of CSV file and assignment of it to tryFile variable
@@ -22,7 +22,7 @@ row_end = 10
 # Boolean if there is title (true) or no (false)
 if_title = False
 # In case of title, we put into row_title the index of the row of title
-row_title = 4
+row_title = 0
 
 # Python will loop through each row in the csv file
 rownum = 0
@@ -32,9 +32,9 @@ for row in reader:
         if if_title:
             if rownum == row_title:
                 c = row
-                # We delete all spaces in title row from our CSV file
+                # We delete all undedirable elements in title row from our CSV file
                 for i in range(len(c)):
-                    c[i] = c[i].replace(" ", "")
+                    c[i] = ''.join(filter(str.isalnum, c[i]))
             else:
                 pass
         else:
@@ -47,17 +47,16 @@ for row in reader:
             # In function of the different cases:
             # end of line, type of the value, there is or no a title in our CSV file,
             # we will add an appropriate TTL code to our l variable
-            if type(row[i]) == float or row[i].__contains__(" ") or row[i].__contains__("-")\
-                    or row[i].__contains__("."):
-                if if_title:
-                    l.append(" p:P" + c[i] + " \"" + row[i] + "\"")
-                else:
-                    l.append(" p:P" + str(i) + " \"" + row[i] + "\"")
-            else:
+            if re.match("^[a-zA-Z0-9_]*$", row[i]):
                 if if_title:
                     l.append(" p:P" + c[i] + " d:" + row[i])
                 else:
                     l.append(" p:P" + str(i) + " d:" + row[i])
+            else:
+                if if_title:
+                    l.append(" p:P" + c[i] + " \"" + row[i] + "\"")
+                else:
+                    l.append(" p:P" + str(i) + " \"" + row[i] + "\"")
             if i == (size - 1):
                 l.append(".\n")
             else:
@@ -65,7 +64,6 @@ for row in reader:
         d = ''.join(l)
         outfile_ttl.write(d)
     rownum += 1  # add 1 to rownum to pass to following line
-
 
 
 outfile_ttl.close()

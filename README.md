@@ -5,8 +5,10 @@ Ilan SOUSSAN - Aurélien NICOLLE - Antoine DARRAS - Gabriel ENRIQUEZ
 
 
 # Code Python
+`La version de Python utilisée est Python 3.6.
+Sur une version antérieure (2.x), le code n'est plus valable`
 
-ATTENTION !!! Le code doit être commenté ligne par ligne.
+**ATTENTION !!! Le code doit être commenté ligne par ligne.**
 
 Ce repository GitHub concerne la partie code du projet de Web sémantique, c'est-à-dire 
 le code en langage Python qui va permettre avec une interface, 
