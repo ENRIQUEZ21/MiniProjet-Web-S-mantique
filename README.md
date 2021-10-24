@@ -15,11 +15,11 @@ le code en langage Python qui va permettre avec une interface,
 de tranformer un fichier CSV chargé depuis l'ordinateur de l'utilisateur en données inscrites dans un fichier .TTL.
 
 Pour lancer le projet Django, il faut procéder de la manière suivante: 
-- `cloner le projet sur votre ordinateur`
-- `Aller dans votre Terminal et se positionner dans le répertoire de notre projet sur votre ordinateur`
-- `Taper cd projectWS pour vous situer au bon endroit`
-- `Lancer la commande py manage.py runserver dans votre console`
-- `Normalement, le serveur démarre et si vous allez dans votre navigateur à l'adresse http://127.0.0.1:8000/conversionCSVTTL/, vous devriez obtenir notre page`
+- cloner le projet sur votre ordinateur
+- Aller dans votre Terminal et se positionner dans le répertoire de notre projet sur votre ordinateur
+- Taper `cd projectWS` pour vous situer au bon endroit
+- Lancer la commande `py manage.py runserver` dans votre console
+- Normalement, le serveur démarre et si vous allez dans votre navigateur à l'adresse http://127.0.0.1:8000/conversionCSVTTL/, vous devriez obtenir notre page
 
 Documentation sur la création d'un projet Django: https://docs.djangoproject.com/fr/3.2/intro/tutorial01/
 
