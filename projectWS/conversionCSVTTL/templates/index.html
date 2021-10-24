@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Welcome to our conversion of CSV into TTL</h1>
+
+  <form>
+    <p><label>Index of start(CSV file starts at index 0)</label>:
+    <input type="text" name="start_row" required></p>
+    <p><label>Index of end(CSV file starts at index 0)</label>:
+    <input type="text" name="end_row" required></p>
+    <label>Is there a row title in your CSV file ?</label>
+    <p><input type="radio" name="title_true" class="action-checkbox"> <label>Yes, there is</label></p>
+  </form>
+{% endblock %}
