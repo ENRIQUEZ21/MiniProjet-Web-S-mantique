@@ -12,7 +12,7 @@ Ce repository GitHub concerne la partie code du projet de Web sémantique, c'est
 le code en langage Python qui va permettre avec une interface, 
 de tranformer un fichier CSV chargé depuis l'ordinateur de l'utilisateur en données inscrites dans un fichier .TTL.
 
-Pour l'instant, le fichier convert_csv_to_ttl.py essaie de convertir test1.csv en un fichier .TTL.
+Pour l'instant, le fichier convert_csv_to_ttl.py convertit les fichiers de tests en fichiers .TTL en fonction des paramètres.
 Le code utilisé dans ce fichier est basé sur celui trouvé dans le repository GitHub suivant: 
 https://github.com/r4isstatic/csv-to-ttl dans le fichier csv-ttl-convert-v1.py 
 
