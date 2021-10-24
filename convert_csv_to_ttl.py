@@ -6,8 +6,8 @@ import csv
 
 
 
-tryFile = open('test1.csv', encoding="utf8") # Opening of test1.csv file and assignment of it to tryFile variable
-reader = csv.reader(tryFile, delimiter=";") # This variable will permit us to manipulate data of test1.csv file
+tryFile = open('test1.csv', encoding="utf8") # Opening of CSV file and assignment of it to tryFile variable
+reader = csv.reader(tryFile, delimiter=";") # This variable will permit us to manipulate data of CSV file
 
 # we create a new TTL file using the 'a' option in open function
 outfile_ttl = open('exitTTLFile.ttl', 'a', encoding="utf8")
@@ -21,66 +21,51 @@ row_end = 10
 
 # Boolean if there is title (true) or no (false)
 if_title = False
-# In case of title for test4.csv
+# In case of title, we put into row_title the index of the row of title
 row_title = 4
 
 # Python will loop through each row in the csv file
 rownum = 0
-if if_title:
-    c=[]
-    for row in reader:
-        if rownum < row_start:
+c=[] # c will be used to represent the row of title if it exists
+for row in reader:
+    if rownum < row_start:
+        if if_title:
             if rownum == row_title:
                 c = row
-                # We delete all spaces in title row in our CSV file
+                # We delete all spaces in title row from our CSV file
                 for i in range(len(c)):
                     c[i] = c[i].replace(" ", "")
             else:
                 pass
-        elif row_start <= rownum <= row_end:
-            size = len(row)
-            l = []  # l is an array that we will use to produce our final string of characters of TTL code
-            l.append("d:L" + str(rownum - row_start))
-            for i in range(size):  # In function of the different cases: end of line, type of the value, we add an appropriate TTL code to our l variable
-                # Depending of type of values
-                if type(row[i]) == float or row[i].__contains__(" ") or row[i].__contains__("-")\
-                        or row[i].__contains__("."):
+        else:
+            pass
+    elif row_start <= rownum <= row_end:
+        size = len(row)
+        l = []  # l is an array that we will use to produce our final string of characters of TTL code
+        l.append("d:L" + str(rownum - row_start))
+        for i in range(size):
+            # In function of the different cases:
+            # end of line, type of the value, there is or no a title in our CSV file,
+            # we will add an appropriate TTL code to our l variable
+            if type(row[i]) == float or row[i].__contains__(" ") or row[i].__contains__("-")\
+                    or row[i].__contains__("."):
+                if if_title:
                     l.append(" p:P" + c[i] + " \"" + row[i] + "\"")
                 else:
-                    l.append(" p:P" + c[i] + " d:" + row[i])
-                # Depending of if it is end of line or no
-                if i == (size - 1):
-                    l.append(".\n")
-                else:
-                    l.append(";\n\t")
-            d = ''.join(l)
-            outfile_ttl.write(d)
-        rownum += 1  # add 1 to rownum to pass to following line
-else:
-    for row in reader:
-        if (rownum < row_start):
-            pass
-        elif row_start <= rownum <= row_end:
-            size = len(row)
-            l = []  # l is an array that we will use to produce our final string of characters of TTL code
-            l.append("d:L" + str(rownum - row_start))
-            for i in range(
-                    size):  # In function of the different cases: end of line, type of the value, we add an appropriate TTL code to our l variable
-                # Depending of type of values
-                if type(row[i]) == float or row[i].__contains__(" ") or row[i].__contains__("-")\
-                        or row[i].__contains__("."):
                     l.append(" p:P" + str(i) + " \"" + row[i] + "\"")
+            else:
+                if if_title:
+                    l.append(" p:P" + c[i] + " d:" + row[i])
                 else:
                     l.append(" p:P" + str(i) + " d:" + row[i])
-                # Depending of if it is end of line or no
-                if i == (size - 1):
-                    l.append(".\n")
-                else:
-                    l.append(";\n\t")
+            if i == (size - 1):
+                l.append(".\n")
+            else:
+                l.append(";\n\t")
+        d = ''.join(l)
+        outfile_ttl.write(d)
+    rownum += 1  # add 1 to rownum to pass to following line
 
-            d = ''.join(l)
-            outfile_ttl.write(d)
-        rownum += 1  # add 1 to rownum to pass to following line
 
 
 outfile_ttl.close()
