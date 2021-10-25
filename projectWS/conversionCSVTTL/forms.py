@@ -1,20 +1,19 @@
 from django import forms
-
+from .models import Document
 from .validators import validate_file_extension
 
 
-class ConversionForm(forms.Form):
+class ConversionForm(forms.ModelForm):
     class Meta:
-        fields = ['CSVfile', 'if_title', 'title_row', 'start_row', 'end_row']
-    CSVfile = forms.FileField(validators=[validate_file_extension], required=False)
-    if_title = forms.BooleanField(label='There is a title row in your CSV')
-    title_row = forms.IntegerField(label='Index of title row')
-    start_row = forms.IntegerField(label='Index of start row')
-    end_row = forms.IntegerField(label='Index of end row')
-
+        model = Document
+        fields = ['CSVfile', 'delimitation', 'if_title', 'title_row', 'start_row', 'end_row']
 
     def clean_CSVfile(self):
         data = self.cleaned_data['CSVfile']
+        return data
+
+    def clean_delimitation(self):
+        data = self.cleaned_data['delimitation']
         return data
 
     def clean_if_title(self):
