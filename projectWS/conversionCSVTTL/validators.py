@@ -1,3 +1,6 @@
+# Authors: Aurélien NICOLLE - Ilan SOUSSAN - Antoine DARRAS - Gabriel ENRIQUEZ
+# Date: 26/10/2021
+
 import os
 from django.core.exceptions import ValidationError
 

@@ -1,9 +1,11 @@
+# Authors: Aurélien NICOLLE - Ilan SOUSSAN - Antoine DARRAS - Gabriel ENRIQUEZ
+# Date: 26/10/2021
 import csv
 import os
 import re
 
 # Create your views here.
-from django.core.exceptions import ValidationError
+
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 
@@ -26,7 +28,7 @@ def index(request):
             end_row = form.clean_end_row()
 
             if delimitation is None:
-                delimitation = ','
+                delimitation = settings.DEFAULT_DELIMITER
 
             CSVfile.seek(0)
             decoded_file = CSVfile.read().decode('utf-8').splitlines()
@@ -39,8 +41,9 @@ def index(request):
 
             outfile_ttl = open('exitTTLFile.ttl', 'a', encoding="utf8")
 
-            outfile_ttl.write("@prefix d: <http://ex.org/data/> .\n")
-            outfile_ttl.write("@prefix p: <http://ex.org/pred#> .\n\n")
+
+            outfile_ttl.write(settings.DATA_PREFIX)
+            outfile_ttl.write(settings.PREDICATE_PREFIX)
 
             rownum = 0
             c = []  # c will be used to represent the row of title if it exists
