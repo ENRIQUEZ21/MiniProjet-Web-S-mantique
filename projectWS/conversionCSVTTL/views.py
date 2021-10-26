@@ -44,7 +44,6 @@ def index(request):
 
             rownum = 0
             c = []  # c will be used to represent the row of title if it exists
-            print(start_row)
             for row in reader:
                 if rownum < start_row:
                     if if_title:

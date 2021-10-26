@@ -78,6 +78,7 @@ class ConversionForm(forms.ModelForm):
             delimitation = ','
         file = CSVfile.read().decode('utf-8').splitlines()
         read = csv.reader(file, delimiter=delimitation)
+        size = 0
         for row in read:
             if if_title:
                 if title_row is None:
@@ -85,15 +86,23 @@ class ConversionForm(forms.ModelForm):
                         if len(row) == 0:
                             raise ValidationError("Oops!!! the title row index 0 (by default) is empty, please "
                                                   "choose one valid")
+                        else:
+                            size = len(row)
                 else:
                     if num == title_row:
                         if len(row) == 0:
                             raise ValidationError("Oops!!! your title row is empty, please choose one other")
-
+                        else:
+                            size = len(row)
+            else:
+                if num == start_row:
+                    size = len(row)
             if start_row <= num <= end_row:
                 if len(row) == 0:
-                    raise ValidationError("Oops!!! there is an invalid row which is empty in the lines specified")
-
+                    raise ValidationError("Oops!!! the row number "+ str(num)+" is an invalid empty row")
+                if len(row) != size:
+                    raise ValidationError("Oops!!! the row number "+str(num)+" is an invalid row which doesn't contain "
+                                                                             "the good number of elements")
             num += 1
 
 
