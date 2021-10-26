@@ -24,6 +24,9 @@ def index(request):
             start_row = form.clean_start_row()
             end_row = form.clean_end_row()
 
+            if delimitation is None:
+                delimitation = ','
+
             decoded_file = CSVfile.read().decode('utf-8').splitlines()
             reader = csv.reader(decoded_file, delimiter=delimitation)
 
