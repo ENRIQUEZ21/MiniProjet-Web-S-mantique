@@ -1,12 +1,12 @@
 import csv
+import os
 import re
 
 # Create your views here.
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 
 from .forms import ConversionForm
-
 
 
 def index(request):
@@ -27,12 +27,15 @@ def index(request):
             decoded_file = CSVfile.read().decode('utf-8').splitlines()
             reader = csv.reader(decoded_file, delimiter=delimitation)
 
+            if os.path.exists('exitTTLFile.ttl'):
+                os.remove('exitTTLFile.ttl')
+            else:
+                pass
 
             outfile_ttl = open('exitTTLFile.ttl', 'a', encoding="utf8")
 
             outfile_ttl.write("@prefix d: <http://ex.org/data/> .\n")
             outfile_ttl.write("@prefix p: <http://ex.org/pred#> .\n\n")
-
 
             rownum = 0
             c = []  # c will be used to represent the row of title if it exists
@@ -74,13 +77,10 @@ def index(request):
                     outfile_ttl.write(d)
                 rownum += 1  # add 1 to rownum to pass to following line
 
-
             outfile_ttl.close()
             # CSVfile.close()
 
-
             form.save()
-            # request.session['outfile_ttl'] = outfile_ttl
             return HttpResponseRedirect('result/')
         # if a GET (or any other method) we'll create a blank form
     else:
@@ -89,5 +89,7 @@ def index(request):
 
 
 def result(request):
-    # outfile_ttl = request.session.get('outfile_ttl')
     return render(request, 'result.html')
+
+
+

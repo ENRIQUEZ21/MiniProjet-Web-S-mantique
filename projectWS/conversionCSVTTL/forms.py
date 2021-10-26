@@ -1,6 +1,5 @@
 from django import forms
 from .models import Document
-from .validators import validate_file_extension
 
 
 class ConversionForm(forms.ModelForm):
