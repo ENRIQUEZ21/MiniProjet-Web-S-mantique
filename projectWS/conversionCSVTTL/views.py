@@ -7,6 +7,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 
 from .forms import ConversionForm
+from django.conf import settings
 
 
 def index(request):
@@ -16,7 +17,6 @@ def index(request):
         # check whether it's valid:
         if form.is_valid():
             # process the data in form.cleaned_data as required
-            # CSVfile = Document(docfile=request.FILES['CSVfile'])
             CSVfile = form.clean_CSVfile()
             delimitation = form.clean_delimitation()
             if_title = form.clean_if_title()
@@ -92,4 +92,11 @@ def result(request):
     return render(request, 'result.html')
 
 
+def download_file(request):
+    fl_path = settings.BASE_DIR / 'exitTTLFile.ttl'
+    filename = 'exitTTLFile.ttl'
 
+    fl = open(fl_path, 'r')
+    response = HttpResponse(fl, content_type='application/x-turtle')
+    response['Content-Disposition'] = "attachment; filename=%s" % filename
+    return response
