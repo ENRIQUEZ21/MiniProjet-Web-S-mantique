@@ -41,11 +41,11 @@ class ConversionForm(forms.ModelForm):
             raise ValueError("Oops!!! There is a problem, the index of your title row must be greater or equal to 0.")
         # If the index of start is less than the index of title, error
         if title_row >= start_row:
-            raise ValueError("Oops!!! There is a problem, the index of your start row must be greater than the index"
+            raise ValueError("Oops!!! There is a problem, the index of your start row must be greater than the index "
                              "of your title row.")
         # If the index of end is less than the index of start, error
         if start_row >= end_row:
-            raise ValueError("Oops!!! There is a problem, the index of your end row must be greater than the index"
+            raise ValueError("Oops!!! There is a problem, the index of your end row must be greater than the index "
                              "of your start row.")
 
 
