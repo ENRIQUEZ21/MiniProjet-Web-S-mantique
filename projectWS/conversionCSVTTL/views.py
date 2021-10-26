@@ -42,6 +42,8 @@ def index(request):
             for row in reader:
                 if rownum < start_row:
                     if if_title:
+                        if title_row is None:
+                            title_row = 0 # Put a default title_row if not specified by the user
                         if rownum == title_row:
                             c = row
                             # We delete all undedirable elements in title row from our CSV file
@@ -96,7 +98,7 @@ def download_file(request):
     fl_path = settings.BASE_DIR / 'exitTTLFile.ttl'
     filename = 'exitTTLFile.ttl'
 
-    fl = open(fl_path, 'r')
+    fl = open(fl_path, 'r', encoding="utf8")
     response = HttpResponse(fl, content_type='application/x-turtle')
     response['Content-Disposition'] = "attachment; filename=%s" % filename
     return response

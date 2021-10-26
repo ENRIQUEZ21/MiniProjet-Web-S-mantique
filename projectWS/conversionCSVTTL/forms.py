@@ -33,20 +33,26 @@ class ConversionForm(forms.ModelForm):
 
     def clean(self):
         cleaned_data = super().clean()
+        if_title = cleaned_data.get("if_title")
         title_row = cleaned_data.get("title_row")
         start_row = cleaned_data.get("start_row")
         end_row = cleaned_data.get("end_row")
-        # All the indexes must be positive
-        if title_row < 0:
-            raise ValueError("Oops!!! There is a problem, the index of your title row must be greater or equal to 0.")
-        # If the index of start is less than the index of title, error
-        if title_row >= start_row:
-            raise ValueError("Oops!!! There is a problem, the index of your start row must be greater than the index "
-                             "of your title row.")
+        # If the title row input is filled
+        if title_row is not None:
+            # All the indexes must be positive
+            if title_row < 0:
+                raise ValueError("Oops!!! There is a problem, the index of your title row must be greater or equal to 0.")
+            # If the index of start is less than the index of title, error
+            if title_row >= start_row:
+                raise ValueError("Oops!!! There is a problem, the index of your start row must be greater than the index "
+                                 "of your title row.")
+        # Else, if the title row input is not filled
+        else:
+            if start_row < 0:
+                raise ValueError(
+                    "Oops!!! There is a problem, the index of the first row analyzed must be greater or equal to 0.")
         # If the index of end is less than the index of start, error
         if start_row >= end_row:
             raise ValueError("Oops!!! There is a problem, the index of your end row must be greater than the index "
                              "of your start row.")
-
-
 
