@@ -3,6 +3,7 @@ import os
 import re
 
 # Create your views here.
+from django.core.exceptions import ValidationError
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 
@@ -27,6 +28,7 @@ def index(request):
             if delimitation is None:
                 delimitation = ','
 
+            CSVfile.seek(0)
             decoded_file = CSVfile.read().decode('utf-8').splitlines()
             reader = csv.reader(decoded_file, delimiter=delimitation)
 
@@ -42,6 +44,7 @@ def index(request):
 
             rownum = 0
             c = []  # c will be used to represent the row of title if it exists
+            print(start_row)
             for row in reader:
                 if rownum < start_row:
                     if if_title:
