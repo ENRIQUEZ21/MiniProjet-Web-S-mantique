@@ -135,9 +135,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 
-# Default values for the project
-DEFAULT_DELIMITER=','
-OBJECT_PREFIX="d"
-PREDICATE_PREFIX="p"
 
 
