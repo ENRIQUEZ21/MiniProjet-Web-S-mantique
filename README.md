@@ -16,6 +16,7 @@ de tranformer un fichier CSV chargé depuis l'ordinateur de l'utilisateur en don
 
 Pour lancer le projet Django, il faut procéder de la manière suivante: 
 - cloner le projet sur votre ordinateur
+- installer le framework Django avec la commande `pip install django` 
 - Aller dans votre Terminal et se positionner dans le répertoire de notre projet sur votre ordinateur
 - Taper `cd projectWS` pour vous situer au bon endroit
 - Lancer la commande `py manage.py runserver` dans votre console
