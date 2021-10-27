@@ -2,9 +2,9 @@
 <!--- Authors: Aurélien NICOLLE - Ilan SOUSSAN - Antoine DARRAS
     Date: 26/10/2021 !--->
 {% block content %}
-  <h1>Welcome to our conversion of CSV into TTL</h1>
-<b>The first row has index number 0</b>
-<div class="all">
+  <h1 style="font-size: 32px; margin: 20px">Welcome to our conversion of CSV into TTL</h1>
+<h2 style="font-size: 24px; margin: 2%">Please selct the CSV file to be triplicated</h2>
+<div class="all" style="width: 80%; margin-left: 2%">
   <form enctype="multipart/form-data" action="." method="post">
     {% csrf_token %}
     {{ form.as_p }}

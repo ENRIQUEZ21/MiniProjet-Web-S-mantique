@@ -3,15 +3,16 @@
 import csv
 
 from django import forms
+from django.conf import settings
 from django.core.exceptions import ValidationError
 
-from .models import Document
+from .models import Document, Information
 
 
-class ConversionForm(forms.ModelForm):
+class DocumentForm(forms.ModelForm):
     class Meta:
         model = Document
-        fields = ['CSVfile', 'delimitation', 'if_title', 'title_row', 'start_row', 'end_row']
+        fields = ['CSVfile', 'delimitation']
 
     def clean_CSVfile(self):
         data = self.cleaned_data['CSVfile']
@@ -20,6 +21,20 @@ class ConversionForm(forms.ModelForm):
     def clean_delimitation(self):
         data = self.cleaned_data['delimitation']
         return data
+
+    def clean(self):
+        cleaned_data = super().clean()
+        CSVfile = cleaned_data.get("CSVfile")
+        delimitation = cleaned_data.get("delimitation")
+
+
+class InformationForm(forms.ModelForm):
+    class Meta:
+        model = Information
+        widgets = {'path_to_csv': forms.HiddenInput(), 'delimiter': forms.HiddenInput()}
+        fields = ['if_title', 'title_row', 'start_row', 'end_row', 'prefix_obj', 'prefix_pred', 'file_name',
+                  'path_to_csv', 'delimiter']
+
 
     def clean_if_title(self):
         data = self.cleaned_data['if_title']
@@ -37,75 +52,76 @@ class ConversionForm(forms.ModelForm):
         data = self.cleaned_data['end_row']
         return data
 
+    def clean_prefix_obj(self):
+        data = self.cleaned_data['prefix_obj']
+        return data
+
+    def clean_prefix_pred(self):
+        data = self.cleaned_data['prefix_pred']
+        return data
+
+    def clean_file_name(self):
+        data = self.cleaned_data['file_name']
+        return data
+
+    def clean_path_to_csv(self):
+        data = self.cleaned_data['path_to_csv']
+        return data
+
+    def clean_delimiter(self):
+        data = self.cleaned_data['delimiter']
+        return data
+
     def clean(self):
         cleaned_data = super().clean()
-        CSVfile = cleaned_data.get("CSVfile")
-        delimitation = cleaned_data.get("delimitation")
         if_title = cleaned_data.get("if_title")
         title_row = cleaned_data.get("title_row")
         start_row = cleaned_data.get("start_row")
         end_row = cleaned_data.get("end_row")
-        # If there is a title in our CSV file
+        path_to_csv = cleaned_data.get("path_to_csv")
+        delimiter = cleaned_data.get("delimiter")
+
         if if_title:
-            # If the the index of the row of title is specified
-            if title_row is not None:
-                # If the index of the title is negative, error
-                if title_row < 0:
-                    raise ValidationError("Oops!!! There is a problem, the index of your title row must be greater or "
-                                          "equal to 0.")
-                    # If the index of start is less than the index of title, error
-                if title_row >= start_row:
-                    raise ValidationError("Oops!!! There is a problem, the index of your start row must be greater "
-                                          "than the index "
-                                          "of your title row.")
-            # Else, if it is not specified
+            if title_row is None:
+                raise ValidationError("Oops!!! the field title row is empty, and there is a title in your "
+                                      "CSV file.")
             else:
-                # If the index of start is negative or equal to 0, error, no 0 because there is a title
-                if start_row <= 0:
-                    raise ValidationError("Oops!!! There is a problem, the index of the start row must be "
-                                          "greater than 0 ")
-        # Else, if there is no title in the CSV file
+                if title_row < 0:
+                    raise ValidationError("Oops!!! the value of the index of title row is negative, "
+                                          "that is impossible, indices start at 0.")
+                if start_row <= title_row:
+                    raise ValidationError("Oops!!! your start row must be after your title row.")
         else:
             if start_row < 0:
-                raise ValidationError(
-                    "Oops!!! There is a problem, the index of the first row analyzed must be greater or equal to 0.")
-        # If the index of end is less than the index of start, error
+                raise ValidationError("Oops!!! the value of the index of your start row is negative, "
+                                      "that is impossible.")
         if start_row >= end_row:
-            raise ValidationError(
-                "Oops!!! There is a problem, the index of your end row must be greater than the index "
-                "of your start row.")
+            raise ValidationError("Oops!!! your end row must be after your start row")
 
-        num = 0
-        if delimitation is None:
-            delimitation = ','
-        file = CSVfile.read().decode('utf-8').splitlines()
-        read = csv.reader(file, delimiter=delimitation)
+        print(path_to_csv)
+        CSVFile = open(path_to_csv, 'r', encoding='utf-8')
+        reader = csv.reader(CSVFile, delimiter=delimiter)
+
+        rownum = 0
         size = 0
-        for row in read:
+        for row in reader:
             if if_title:
-                if title_row is None:
-                    if num == 0:
-                        if len(row) == 0:
-                            raise ValidationError("Oops!!! the title row index 0 (by default) is empty, please "
-                                                  "choose one valid")
-                        else:
-                            size = len(row)
-                else:
-                    if num == title_row:
-                        if len(row) == 0:
-                            raise ValidationError("Oops!!! your title row is empty, please choose one other")
-                        else:
-                            size = len(row)
+                if rownum == title_row:
+                    if len(row) == 0:
+                        raise ValidationError("Oops!!! your title row is empty, please choose one other")
+                    else:
+                        size = len(row)
             else:
-                if num == start_row:
-                    size = len(row)
-            if start_row <= num <= end_row:
-                if len(row) == 0:
-                    raise ValidationError("Oops!!! the row number "+ str(num)+" is an invalid empty row")
+                if rownum == start_row:
+                    if len(row) == 0:
+                        raise ValidationError("Oops!!! Your start row is empty.")
+                    else:
+                        size = len(row)
+            if start_row <= rownum < end_row:
                 if len(row) != size:
-                    raise ValidationError("Oops!!! the row number "+str(num)+" is an invalid row which doesn't contain "
-                                                                             "the good number of elements")
-            num += 1
+                    raise ValidationError("Oops!!! The row "+rownum+" has a wrong number of elements.")
 
+            rownum+=1
 
-
+        CSVFile.seek(0)
+        CSVFile.close()

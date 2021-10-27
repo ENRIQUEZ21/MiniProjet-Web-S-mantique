@@ -137,5 +137,7 @@ MEDIA_URL = '/media/'
 
 # Default values for the project
 DEFAULT_DELIMITER=','
-DATA_PREFIX="@prefix d: <http://ex.org/data/> .\n"
-PREDICATE_PREFIX="@prefix p: <http://ex.org/pred#> .\n\n"
+OBJECT_PREFIX="d"
+PREDICATE_PREFIX="p"
+
+

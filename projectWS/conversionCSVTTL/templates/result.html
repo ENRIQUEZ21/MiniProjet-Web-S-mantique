@@ -2,8 +2,9 @@
 <!--- Authors: Aurélien NICOLLE - Ilan SOUSSAN - Antoine DARRAS
     Date: 26/10/2021 !--->
 {% block content %}
-  <h1>Welcome to our conversion of CSV into TTL</h1>
-<div class="all">
-  <a href="{% url 'download_file' %}">Your TTL File !!!</a>
-</div>
+  <h1 style="font-size: 32px; margin: 20px">Welcome to our conversion of CSV into TTL</h1>
+  <div class="all" style="width: 80%; margin-left: 2%">
+    <p><a href="{% url 'download_TTL' %}">Your TTL File !!!</a></p>
+  </div>
+
 {% endblock %}
