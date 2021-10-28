@@ -23,11 +23,7 @@ def document(request):
             CSVfile = form.clean_CSVfile()
             delimitation = form.clean_delimitation()
 
-            file_name = str(CSVfile)
-            file_name.replace(' ', '')
-            file_name.replace(' (', '_')
-            file_name.replace(')', '')
-            pathToCSV = settings.MEDIA_ROOT + '/CSVfiles/' + file_name
+            pathToCSV = settings.MEDIA_ROOT + '/CSVfiles/' + str(CSVfile)
             if os.path.exists(pathToCSV):
                 os.remove(pathToCSV)
             else:
@@ -35,7 +31,7 @@ def document(request):
 
             form.save()
 
-            csvName = file_name.replace('.csv', '')
+            csvName = str(CSVfile).replace('.csv', '')
 
             request.session['csv_name'] = csvName
 

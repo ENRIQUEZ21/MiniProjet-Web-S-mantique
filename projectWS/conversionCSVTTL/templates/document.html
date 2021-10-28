@@ -2,13 +2,43 @@
 <!--- Authors: Aurélien NICOLLE - Ilan SOUSSAN - Antoine DARRAS
     Date: 26/10/2021 !--->
 {% block content %}
-  <h1 style="font-size: 32px; margin: 20px">Welcome to our conversion of CSV into TTL</h1>
-<h2 style="font-size: 24px; margin: 2%">Please selct the CSV file to be triplicated</h2>
-<div class="all" style="width: 80%; margin-left: 2%">
+  <h1>Welcome to our conversion of CSV into TTL</h1>
+<h2>Please select the CSV file to be triplicated</h2>
+<div class="all">
   <form enctype="multipart/form-data" action="." method="post">
     {% csrf_token %}
     {{ form.as_p }}
     <input type="submit" value="Validate" class="button">
   </form>
 </div>
+
+<style>
+    h1 {
+        font-size: 32px;
+        margin: 20px;
+    }
+    .all {
+        width: 80%;
+        margin-left: 2%;
+    }
+    h2 {
+        margin: 2%;
+        font-size: 24px;
+    }
+    input {
+        font-size: 20px;
+    }
+    label {
+        font-size: 20px;
+    }
+    input[type=submit] {
+        width: 40%;
+        height: 64px;
+        font-size: 20px;
+    }
+    p {
+        margin-top: 32px;
+        font-size: 20px;
+    }
+</style>
 {% endblock %}

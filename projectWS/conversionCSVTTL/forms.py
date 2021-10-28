@@ -1,6 +1,8 @@
 # Authors: Aurélien NICOLLE - Ilan SOUSSAN - Antoine DARRAS - Gabriel ENRIQUEZ
 # Date: 26/10/2021
 import csv
+import os
+import re
 
 from django import forms
 from django.core.exceptions import ValidationError
@@ -25,6 +27,11 @@ class DocumentForm(forms.ModelForm):
         cleaned_data = super().clean()
         CSVfile = cleaned_data.get("CSVfile")
         delimitation = cleaned_data.get("delimitation")
+        filename = str(os.path.basename(CSVfile.name)).replace('.csv', '')
+
+        if not re.match("^[a-zA-Z0-9_]*$", filename):
+            raise ValidationError("Oops!!! The name of your file is invalid, please choose "
+                                  "a file which contains only letters, numbers and _")
 
 
 class InformationForm(forms.ModelForm):

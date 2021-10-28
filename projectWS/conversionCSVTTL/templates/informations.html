@@ -2,15 +2,47 @@
 <!--- Authors: Aurélien NICOLLE - Ilan SOUSSAN - Antoine DARRAS
     Date: 26/10/2021 !--->
 {% block content %}
-  <h1 style="font-size: 32px; margin: 20px">Welcome to our conversion of CSV into TTL</h1>
-<div class="all" style="width: 80%; margin-left: 2%">
+  <h1>Welcome to our conversion of CSV into TTL</h1>
+<div class="all">
+    <h2>The row of the CSV file start at index 0</h2>
     <form action="." method="post">
        {% csrf_token %}
         {{ form.as_p }}
+        <p>CSV File: <a href="{% url 'download_CSV' %}">The CSV file uploaded</a></p>
         <input type="submit" value="Validate" class="button">
     </form>
 
-    <p style="margin-top: 32px"><a href="{% url 'download_CSV' %}">The CSV file uploaded</a></p>
 </div>
+
+<style>
+    h1 {
+        font-size: 32px;
+        margin: 20px;
+    }
+    .all {
+        width: 80%;
+        margin-left: 2%;
+    }
+    h2 {
+        margin-top: 5%;
+        color: green;
+        font-size: 18px;
+    }
+    input {
+        font-size: 20px;
+    }
+    label {
+        font-size: 20px;
+    }
+    input[type=submit] {
+        width: 40%;
+        height: 64px;
+        font-size: 20px;
+    }
+    p {
+        margin-top: 32px;
+        font-size: 20px;
+    }
+</style>
 
 {% endblock %}
