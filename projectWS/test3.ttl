@@ -1,0 +1,84 @@
+@prefix d: <http://ex.org/data/> .
+@prefix p: <http://ex.org/pred#> .
+
+d:L0 p:Padresse "3 PLACE DES DEUX ECUS";
+	 p:Parrdt d:75001;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L1 p:Padresse "PLACE DU PALAIS ROYAL / ST HONORE";
+	 p:Parrdt d:75001;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L2 p:Padresse "1 Boulevard DES CAPUCINES/RUE L.LEGRAND";
+	 p:Parrdt d:75002;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L3 p:Padresse "13 Boulevard MONTMARTRE";
+	 p:Parrdt d:75002;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L4 p:Padresse "13 Boulevard ST DENIS";
+	 p:Parrdt d:75002;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L5 p:Padresse "11 Boulevard DES ITALIENS";
+	 p:Parrdt d:75002;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L6 p:Padresse "11 PLACE DE LA REPUBLIQUE";
+	 p:Parrdt d:75003;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L7 p:Padresse "68 RUE DE RIVOLI";
+	 p:Parrdt d:75004;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L8 p:Padresse "65 Boulevard ST MICHEL";
+	 p:Parrdt d:75005;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L9 p:Padresse "170 Boulevard ST GERMAIN";
+	 p:Parrdt d:75006;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L10 p:Padresse "26 RUE VAVIN";
+	 p:Parrdt d:75006;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L11 p:Padresse "12 PLACE ST SULPICE";
+	 p:Parrdt d:75006;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L12 p:Padresse "4 PLACE DU 18 JUIN 1940";
+	 p:Parrdt d:75006;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L13 p:Padresse "26 RUE DE SEVRES";
+	 p:Parrdt d:75007;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L14 p:Padresse "ESPLANADE DES INVALIDES";
+	 p:Parrdt d:75007;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L15 p:Padresse "16 RUE ROYALE";
+	 p:Parrdt d:75008;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L16 p:Padresse "69 Avenue FRANKLIN ROOSEVELT";
+	 p:Parrdt d:75008;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L17 p:Padresse "21 RUE DE LIEGE";
+	 p:Parrdt d:75008;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L18 p:Padresse "101 Avenue DES CHAMPS ELYSEES";
+	 p:Parrdt d:75008;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L19 p:Padresse "32 Boulevard HAUSSMANN";
+	 p:Parrdt d:75009;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L20 p:Padresse "2 Boulevard HAUSSMANN";
+	 p:Parrdt d:75009;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L21 p:Padresse "2 Boulevard POISSONNIERE";
+	 p:Parrdt d:75009;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L22 p:Padresse "65 RUE LAFAYETTE";
+	 p:Parrdt d:75009;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L23 p:Padresse "4 PLACE GUSTAE TOUDOUZE";
+	 p:Parrdt d:75009;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L24 p:Padresse "PLACE DU HAvRE / COTE FNAC";
+	 p:Parrdt d:75009;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L25 p:Padresse "12 Boulevard DES CAPUCINES";
+	 p:Parrdt d:75009;
+	 p:Ptypedekiosque "Kiosque de presse".
+d:L26 p:Padresse "79 Boulevard DE STRASBOURG";
+	 p:Parrdt d:75010;
+	 p:Ptypedekiosque "Kiosque de presse".

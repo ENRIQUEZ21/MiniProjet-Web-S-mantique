@@ -48,7 +48,7 @@ def document(request):
 def informations(request):
     if request.method == 'POST':
         form = InformationForm(request.POST)
-        # If the foem is valid
+        # If the form is valid
         if form.is_valid():
             # process the data in form.cleaned_data as required
             if_title = form.clean_if_title()

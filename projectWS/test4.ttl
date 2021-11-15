@@ -1,0 +1,3783 @@
+@prefix d: <http://ex.org/data/> .
+@prefix p: <http://ex.org/pred#> .
+
+d:L0 p:PName d:Acatenango;
+	 p:PCountry d:Guatemala;
+	 p:PRegion d:Guatemala;
+	 p:PLatitude "14.501";
+	 p:PLongitude "-90.876";
+	 p:PElev d:3976;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L1 p:PName d:Adatara;
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "37.62";
+	 p:PLongitude "140.28";
+	 p:PElev d:1718;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L2 p:PName d:Agung;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.342";
+	 p:PLongitude "115.508";
+	 p:PElev d:3142;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L3 p:PName "Akademia Nauk";
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "53.98";
+	 p:PLongitude "159.45";
+	 p:PElev d:1180;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L4 p:PName d:Akan;
+	 p:PCountry d:Japan;
+	 p:PRegion "Hokkaido-Japan";
+	 p:PLatitude "43.38";
+	 p:PLongitude "144.02";
+	 p:PElev d:1499;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L5 p:PName "Akita-Komaga-take";
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "39.75";
+	 p:PLongitude "140.8";
+	 p:PElev d:1637;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L6 p:PName "Akita-Yake-yama";
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "39.97";
+	 p:PLongitude "140.77";
+	 p:PElev d:1366;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L7 p:PName d:Akutan;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "54.13";
+	 p:PLongitude "-165.97";
+	 p:PElev d:1303;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L8 p:PName d:Alaid;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "50.858";
+	 p:PLongitude "155.55";
+	 p:PElev d:2339;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L9 p:PName "Alcedo, Volcan";
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Galapagos;
+	 p:PLatitude "-0.43";
+	 p:PLongitude "-91.12";
+	 p:PElev d:1130;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L10 p:PName d:Ambrym;
+	 p:PCountry d:Vanuatu;
+	 p:PRegion "Vanuatu-SW Pacific";
+	 p:PLatitude "-16.25";
+	 p:PLongitude "168.12";
+	 p:PElev d:1334;
+	 p:PType "Pyroclastic shield";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L11 p:PName d:Amukta;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "52.5";
+	 p:PLongitude "-171.25";
+	 p:PElev d:1066;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L12 p:PName d:Aoba;
+	 p:PCountry d:Vanuatu;
+	 p:PRegion "Vanuatu-SW Pacific";
+	 p:PLatitude "-15.4";
+	 p:PLongitude "167.83";
+	 p:PElev d:1496;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L13 p:PName d:Aracar;
+	 p:PCountry d:Argentina;
+	 p:PRegion d:Argentina;
+	 p:PLatitude "-24.27";
+	 p:PLongitude "-67.77";
+	 p:PElev d:6082;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L14 p:PName d:Ardoukoba;
+	 p:PCountry d:Djibouti;
+	 p:PRegion "Africa-NE";
+	 p:PLatitude "11.58";
+	 p:PLongitude "42.47";
+	 p:PElev d:298;
+	 p:PType "Fissure vent";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L15 p:PName d:Arenal;
+	 p:PCountry "Costa Rica";
+	 p:PRegion "Costa Rica";
+	 p:PLatitude "10.463";
+	 p:PLongitude "-84.703";
+	 p:PElev d:1657;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L16 p:PName d:Asama;
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "36.4";
+	 p:PLongitude "138.53";
+	 p:PElev d:2560;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L17 p:PName d:Aso;
+	 p:PCountry d:Japan;
+	 p:PRegion "Kyushu-Japan";
+	 p:PLatitude "32.88";
+	 p:PLongitude "131.1";
+	 p:PElev d:1592;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L18 p:PName d:Atka;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "52.38";
+	 p:PLongitude "-174.15";
+	 p:PElev d:1533;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L19 p:PName d:Augustine;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska-SW";
+	 p:PLatitude "59.37";
+	 p:PLongitude "-153.42";
+	 p:PElev d:1252;
+	 p:PType "Lava dome";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L20 p:PName d:Avachinsky;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "53.255";
+	 p:PLongitude "158.83";
+	 p:PElev d:2741;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L21 p:PName d:Awu;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Sangihe Is-Indonesia";
+	 p:PLatitude "3.67";
+	 p:PLongitude "125.5";
+	 p:PElev d:1320;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L22 p:PName "Axial Seamount";
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "Pacific-NE";
+	 p:PLatitude "45.95";
+	 p:PLongitude "-130";
+	 p:PElev "-1500";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L23 p:PName "Azul, Cerro";
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Galapagos;
+	 p:PLatitude "-0.9";
+	 p:PLongitude "-91.42";
+	 p:PElev d:1690;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L24 p:PName "Azul, Cerro [Quizapu]";
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-35.653";
+	 p:PLongitude "-70.761";
+	 p:PElev d:3788;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L25 p:PName d:Azuma;
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "37.73";
+	 p:PLongitude "140.25";
+	 p:PElev d:2024;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L26 p:PName d:Bagana;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "Bougainville-SW Paci";
+	 p:PLatitude "-6.14";
+	 p:PLongitude "155.195";
+	 p:PElev d:1750;
+	 p:PType "Lava cone";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L27 p:PName "Banda Api";
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "Banda Sea";
+	 p:PLatitude "-4.525";
+	 p:PLongitude "129.871";
+	 p:PElev d:640;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L28 p:PName "Barren Island";
+	 p:PCountry d:India;
+	 p:PRegion "Andaman Is-Indian O";
+	 p:PLatitude "12.292";
+	 p:PLongitude "93.875";
+	 p:PElev d:354;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L29 p:PName d:Batur;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.242";
+	 p:PLongitude "115.375";
+	 p:PElev d:1717;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L30 p:PName "Bayonnaise Rocks";
+	 p:PCountry d:Japan;
+	 p:PRegion "Izu Is-Japan";
+	 p:PLatitude "31.92";
+	 p:PLongitude "139.92";
+	 p:PElev d:10;
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L31 p:PName d:Bezymianny;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "55.978";
+	 p:PLongitude "160.587";
+	 p:PElev d:2882;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L32 p:PName d:Bogoslof;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "53.93";
+	 p:PLongitude "-168.03";
+	 p:PElev d:101;
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L33 p:PName d:Bulusan;
+	 p:PCountry d:Philippines;
+	 p:PRegion "Luzon-Philippines";
+	 p:PLatitude "12.77";
+	 p:PLongitude "124.05";
+	 p:PElev d:1565;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L34 p:PName d:Callaqui;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-37.92";
+	 p:PLongitude "-71.45";
+	 p:PElev d:3164;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L35 p:PName "Cameroon, Mt.";
+	 p:PCountry d:Cameroon;
+	 p:PRegion "Africa-W";
+	 p:PLatitude "4.203";
+	 p:PLongitude "9.17";
+	 p:PElev d:4095;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L36 p:PName d:Canlaon;
+	 p:PCountry d:Philippines;
+	 p:PRegion "Philippines-C";
+	 p:PLatitude "10.412";
+	 p:PLongitude "123.132";
+	 p:PElev d:2435;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L37 p:PName "Carran-Los Venados";
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-40.35";
+	 p:PLongitude "-72.07";
+	 p:PElev d:1114;
+	 p:PType "Pyroclastic cone";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L38 p:PName d:Chaiten;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-S";
+	 p:PLatitude "-42.833";
+	 p:PLongitude "-72.646";
+	 p:PElev d:962;
+	 p:PType d:Caldera;
+	 p:PStatus d:Holocene;
+	 p:PLast d:D1.
+d:L39 p:PName "Chichon, El";
+	 p:PCountry d:Mexico;
+	 p:PRegion d:Mexico;
+	 p:PLatitude "17.36";
+	 p:PLongitude "-93.228";
+	 p:PElev d:1150;
+	 p:PType "Tuff cone";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L40 p:PName d:Chiginagak;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska Peninsula";
+	 p:PLatitude "57.13";
+	 p:PLongitude "-157";
+	 p:PElev d:2075;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L41 p:PName d:Chikurachki;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "50.325";
+	 p:PLongitude "155.458";
+	 p:PElev d:1816;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L42 p:PName "Chillan, Nevados de";
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-36.863";
+	 p:PLongitude "-71.377";
+	 p:PElev d:3212;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L43 p:PName d:Chirinkotan;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "48.98";
+	 p:PLongitude "153.48";
+	 p:PElev d:724;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L44 p:PName d:Chirpoi;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "46.525";
+	 p:PLongitude "150.875";
+	 p:PElev d:742;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L45 p:PName d:Chokai;
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "39.08";
+	 p:PLongitude "140.03";
+	 p:PElev d:2237;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L46 p:PName "Cleft Segment";
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "Pacific-NE";
+	 p:PLatitude "44.83";
+	 p:PLongitude "-130.3";
+	 p:PElev "-2140";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L47 p:PName d:Cleveland;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "52.82";
+	 p:PLongitude "-169.95";
+	 p:PElev d:1730;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L48 p:PName "CoAxial Segment";
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "Pacific-NE";
+	 p:PLatitude "46.52";
+	 p:PLongitude "-129.58";
+	 p:PElev "-2400";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L49 p:PName d:Colima;
+	 p:PCountry d:Mexico;
+	 p:PRegion d:Mexico;
+	 p:PLatitude "19.514";
+	 p:PLongitude "-103.62";
+	 p:PElev d:3850;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L50 p:PName "Colo [Una Una]";
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Sulawesi-Indonesia";
+	 p:PLatitude "-0.17";
+	 p:PLongitude "121.608";
+	 p:PElev d:507;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L51 p:PName d:Concepcion;
+	 p:PCountry d:Nicaragua;
+	 p:PRegion d:Nicaragua;
+	 p:PLatitude "11.538";
+	 p:PLongitude "-85.622";
+	 p:PElev d:1700;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L52 p:PName d:Copahue;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-37.85";
+	 p:PLongitude "-71.17";
+	 p:PElev d:2965;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L53 p:PName d:Curacoa;
+	 p:PCountry d:Tonga;
+	 p:PRegion "Tonga-SW Pacific";
+	 p:PLatitude "-15.62";
+	 p:PLongitude "-173.67";
+	 p:PElev "-33";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L54 p:PName "Deception Island";
+	 p:PCountry d:Antarctica;
+	 p:PRegion d:Antarctica;
+	 p:PLatitude "-62.97";
+	 p:PLongitude "-60.65";
+	 p:PElev d:576;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L55 p:PName d:Dempo;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "-4.03";
+	 p:PLongitude "103.13";
+	 p:PElev d:3173;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L56 p:PName d:Didicas;
+	 p:PCountry d:Philippines;
+	 p:PRegion "Luzon-N of";
+	 p:PLatitude "19.077";
+	 p:PLongitude "122.202";
+	 p:PElev d:244;
+	 p:PType "Compound volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L57 p:PName "Dieng Volc Complex";
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-7.2";
+	 p:PLongitude "109.92";
+	 p:PElev d:2565;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L58 p:PName d:Dukono;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Halmahera-Indonesia";
+	 p:PLatitude "1.68";
+	 p:PLongitude "127.88";
+	 p:PElev d:1185;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L59 p:PName "Eastern Gemini Seamount";
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "SW Pacific";
+	 p:PLatitude "-20.98";
+	 p:PLongitude "170.28";
+	 p:PElev "-80";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L60 p:PName d:Ebeko;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "50.68";
+	 p:PLongitude "156.02";
+	 p:PElev d:1156;
+	 p:PType "Somma volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L61 p:PName d:Ebulobo;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.808";
+	 p:PLongitude "121.18";
+	 p:PElev d:2124;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L62 p:PName d:Ekarma;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "48.958";
+	 p:PLongitude "153.93";
+	 p:PElev d:1170;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L63 p:PName d:Epi;
+	 p:PCountry d:Vanuatu;
+	 p:PRegion "Vanuatu-SW Pacific";
+	 p:PLatitude "-16.68";
+	 p:PLongitude "168.37";
+	 p:PElev d:833;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L64 p:PName d:Erebus;
+	 p:PCountry d:Antarctica;
+	 p:PRegion d:Antarctica;
+	 p:PLatitude "-77.53";
+	 p:PLongitude "167.17";
+	 p:PElev d:3794;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L65 p:PName "Erta Ale";
+	 p:PCountry d:Ethiopia;
+	 p:PRegion "Africa-NE";
+	 p:PLatitude "13.6";
+	 p:PLongitude "40.67";
+	 p:PElev d:613;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L66 p:PName d:Etna;
+	 p:PCountry d:Italy;
+	 p:PRegion d:Italy;
+	 p:PLatitude "37.734";
+	 p:PLongitude "15.004";
+	 p:PElev d:3350;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L67 p:PName d:Eyjafjallajokull;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-S";
+	 p:PLatitude "63.63";
+	 p:PLongitude "-19.62";
+	 p:PElev d:1666;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L68 p:PName "Farallon de Pajaros";
+	 p:PCountry "United States";
+	 p:PRegion "Mariana Is-C Pacific";
+	 p:PLatitude "20.53";
+	 p:PLongitude "144.9";
+	 p:PElev d:360;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L69 p:PName d:Fernandina;
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Galapagos;
+	 p:PLatitude "-0.37";
+	 p:PLongitude "-91.55";
+	 p:PElev d:1495;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L70 p:PName d:Fogo;
+	 p:PCountry "Cape Verde";
+	 p:PRegion "Cape Verde Is";
+	 p:PLatitude "14.95";
+	 p:PLongitude "-24.35";
+	 p:PElev d:2829;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L71 p:PName "Fournaise, Piton de la";
+	 p:PCountry d:Reunion;
+	 p:PRegion "Indian O-W";
+	 p:PLatitude "-21.229";
+	 p:PLongitude "55.713";
+	 p:PElev d:2631;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L72 p:PName d:Fuego;
+	 p:PCountry d:Guatemala;
+	 p:PRegion d:Guatemala;
+	 p:PLatitude "14.473";
+	 p:PLongitude "-90.88";
+	 p:PElev d:3763;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L73 p:PName d:Fukujin;
+	 p:PCountry d:Japan;
+	 p:PRegion "Volcano Is-Japan";
+	 p:PLatitude "21.925";
+	 p:PLongitude "143.442";
+	 p:PElev "-217";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L74 p:PName "Fukutoku-okanoba";
+	 p:PCountry d:Japan;
+	 p:PRegion "Volcano Is-Japan";
+	 p:PLatitude "24.28";
+	 p:PLongitude "141.52";
+	 p:PElev "-14";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L75 p:PName "Galapagos Rift";
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "Pacific-E";
+	 p:PLatitude "0.792";
+	 p:PLongitude "-86.15";
+	 p:PElev "-2430";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L76 p:PName d:Galeras;
+	 p:PCountry d:Colombia;
+	 p:PRegion d:Colombia;
+	 p:PLatitude "1.22";
+	 p:PLongitude "-77.37";
+	 p:PElev d:4276;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L77 p:PName d:Galunggung;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-7.25";
+	 p:PLongitude "108.05";
+	 p:PElev d:2168;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L78 p:PName d:Gamalama;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Halmahera-Indonesia";
+	 p:PLatitude "0.8";
+	 p:PLongitude "127.325";
+	 p:PElev d:1715;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L79 p:PName d:Gamkonora;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Halmahera-Indonesia";
+	 p:PLatitude "1.375";
+	 p:PLongitude "127.52";
+	 p:PElev d:1635;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L80 p:PName d:Gareloi;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "51.78";
+	 p:PLongitude "-178.8";
+	 p:PElev d:1573;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L81 p:PName d:Gaua;
+	 p:PCountry d:Vanuatu;
+	 p:PRegion "Vanuatu-SW Pacific";
+	 p:PLatitude "-14.27";
+	 p:PLongitude "167.5";
+	 p:PElev d:797;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L82 p:PName d:Gorely;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "52.558";
+	 p:PLongitude "158.03";
+	 p:PElev d:1829;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L83 p:PName "Great Sitkin";
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "52.08";
+	 p:PLongitude "-176.13";
+	 p:PElev d:1740;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L84 p:PName d:Grimsvotn;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-NE";
+	 p:PLatitude "64.42";
+	 p:PLongitude "-17.33";
+	 p:PElev d:1725;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L85 p:PName "Grozny Group";
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "45.02";
+	 p:PLongitude "147.87";
+	 p:PElev d:1211;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L86 p:PName "Guagua Pichincha";
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Ecuador;
+	 p:PLatitude "-0.171";
+	 p:PLongitude "-78.598";
+	 p:PElev d:4784;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L87 p:PName d:Heard;
+	 p:PCountry "Heard I. & McDonald Is.";
+	 p:PRegion "Indian O-S";
+	 p:PLatitude "-53.106";
+	 p:PLongitude "73.513";
+	 p:PElev d:2745;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L88 p:PName d:Hekla;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-S";
+	 p:PLatitude "63.98";
+	 p:PLongitude "-19.7";
+	 p:PElev d:1491;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L89 p:PName "Home Reef";
+	 p:PCountry d:Tonga;
+	 p:PRegion "Tonga-SW Pacific";
+	 p:PLatitude "-18.992";
+	 p:PLongitude "-174.775";
+	 p:PElev "-2";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L90 p:PName "Hudson, Cerro";
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-S";
+	 p:PLatitude "-45.9";
+	 p:PLongitude "-72.97";
+	 p:PElev d:1905;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L91 p:PName "Hunga Tonga-Hunga Ha'apai";
+	 p:PCountry d:Tonga;
+	 p:PRegion "Tonga-SW Pacific";
+	 p:PLatitude "-20.57";
+	 p:PLongitude "-175.38";
+	 p:PElev d:0;
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L92 p:PName d:Ibu;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Halmahera-Indonesia";
+	 p:PLatitude "1.475";
+	 p:PLongitude "127.642";
+	 p:PElev d:1325;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L93 p:PName d:Ijen;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-8.058";
+	 p:PLongitude "114.242";
+	 p:PElev d:2799;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L94 p:PName d:Iliboleng;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.342";
+	 p:PLongitude "123.258";
+	 p:PElev d:1659;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L95 p:PName d:Iliwerung;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.54";
+	 p:PLongitude "123.59";
+	 p:PElev d:1018;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L96 p:PName d:Irazu;
+	 p:PCountry "Costa Rica";
+	 p:PRegion "Costa Rica";
+	 p:PLatitude "9.979";
+	 p:PLongitude "-83.852";
+	 p:PElev d:3432;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L97 p:PName d:Irruputuncu;
+	 p:PCountry d:Bolivia;
+	 p:PRegion "Chile-N";
+	 p:PLatitude "-20.73";
+	 p:PLongitude "-68.55";
+	 p:PElev d:5163;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L98 p:PName "Iwo-Tori-shima";
+	 p:PCountry d:Japan;
+	 p:PRegion "Ryukyu Is";
+	 p:PLatitude "27.85";
+	 p:PLongitude "128.25";
+	 p:PElev d:217;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L99 p:PName "Iwo-jima";
+	 p:PCountry d:Japan;
+	 p:PRegion "Volcano Is-Japan";
+	 p:PLatitude "24.75";
+	 p:PLongitude "141.33";
+	 p:PElev d:161;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L100 p:PName d:Iya;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.88";
+	 p:PLongitude "121.63";
+	 p:PElev d:637;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L101 p:PName d:Izalco;
+	 p:PCountry "El Salvador";
+	 p:PRegion "El Salvador";
+	 p:PLatitude "13.813";
+	 p:PLongitude "-89.633";
+	 p:PElev d:1950;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L102 p:PName "Izu-Tobu";
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "34.92";
+	 p:PLongitude "139.12";
+	 p:PElev d:1406;
+	 p:PType "Pyroclastic cone";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L103 p:PName "Jan Mayen";
+	 p:PCountry "Jan Mayen";
+	 p:PRegion "Atlantic-N-Jan Mayen";
+	 p:PLatitude "71.08";
+	 p:PLongitude "-8.17";
+	 p:PElev d:2277;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L104 p:PName "Kaitoku Seamount";
+	 p:PCountry d:Japan;
+	 p:PRegion "Volcano Is-Japan";
+	 p:PLatitude "26.122";
+	 p:PLongitude "141.102";
+	 p:PElev "-10";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L105 p:PName d:Kanaga;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "51.92";
+	 p:PLongitude "-177.17";
+	 p:PElev d:1307;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L106 p:PName "Karangetang [Api Siau]";
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Sangihe Is-Indonesia";
+	 p:PLatitude "2.78";
+	 p:PLongitude "125.48";
+	 p:PElev d:1784;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L107 p:PName d:Karkar;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Guinea-NE of";
+	 p:PLatitude "-4.649";
+	 p:PLongitude "145.964";
+	 p:PElev d:1839;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L108 p:PName d:Karthala;
+	 p:PCountry d:Comoros;
+	 p:PRegion "Indian O-W";
+	 p:PLatitude "-11.75";
+	 p:PLongitude "43.38";
+	 p:PElev d:2361;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L109 p:PName d:Karymsky;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "54.05";
+	 p:PLongitude "159.43";
+	 p:PElev d:1536;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L110 p:PName d:Kasatochi;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "52.18";
+	 p:PLongitude "-175.5";
+	 p:PElev d:314;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L111 p:PName d:Kavachi;
+	 p:PCountry "Solomon Is.";
+	 p:PRegion "Solomon Is-SW Pacifi";
+	 p:PLatitude "-9.02";
+	 p:PLongitude "157.95";
+	 p:PElev "-20";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L112 p:PName d:Kelimutu;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.758";
+	 p:PLongitude "121.83";
+	 p:PElev d:1640;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L113 p:PName d:Kelut;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-7.93";
+	 p:PLongitude "112.308";
+	 p:PElev d:1731;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L114 p:PName d:Kerinci;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "-1.814";
+	 p:PLongitude "101.264";
+	 p:PElev d:3800;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L115 p:PName "Kick-'em-Jenny";
+	 p:PCountry d:Netherlands;
+	 p:PRegion "W Indies";
+	 p:PLatitude "12.3";
+	 p:PLongitude "-61.63";
+	 p:PElev "-177";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L116 p:PName d:Kikai;
+	 p:PCountry d:Japan;
+	 p:PRegion "Ryukyu Is";
+	 p:PLatitude "30.78";
+	 p:PLongitude "130.28";
+	 p:PElev d:717;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L117 p:PName d:Kilauea;
+	 p:PCountry "United States";
+	 p:PRegion "Hawaiian Is";
+	 p:PLatitude "19.425";
+	 p:PLongitude "-155.292";
+	 p:PElev d:1222;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L118 p:PName d:Kirishima;
+	 p:PCountry d:Japan;
+	 p:PRegion "Kyushu-Japan";
+	 p:PLatitude "31.93";
+	 p:PLongitude "130.87";
+	 p:PElev d:1700;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L119 p:PName d:Kiska;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "52.1";
+	 p:PLongitude "177.6";
+	 p:PElev d:1220;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L120 p:PName d:Kliuchevskoi;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "56.057";
+	 p:PLongitude "160.638";
+	 p:PElev d:4835;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L121 p:PName "Kolokol Group";
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "46.042";
+	 p:PLongitude "150.05";
+	 p:PElev d:1328;
+	 p:PType "Somma volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L122 p:PName "Komaga-take";
+	 p:PCountry d:Japan;
+	 p:PRegion "Hokkaido-Japan";
+	 p:PLatitude "42.07";
+	 p:PLongitude "140.68";
+	 p:PElev d:1140;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L123 p:PName d:Krafla;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-NE";
+	 p:PLatitude "65.73";
+	 p:PLongitude "-16.78";
+	 p:PElev d:650;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L124 p:PName d:Krakagiger;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-S";
+	 p:PLatitude "63.98";
+	 p:PLongitude "-19.7";
+	 p:PElev d:1491;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L125 p:PName d:Krakatau;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Indonesia;
+	 p:PLatitude "-6.102";
+	 p:PLongitude "105.423";
+	 p:PElev d:813;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L126 p:PName "Kuchinoerabu-jima";
+	 p:PCountry d:Japan;
+	 p:PRegion "Ryukyu Is";
+	 p:PLatitude "30.43";
+	 p:PLongitude "130.22";
+	 p:PElev d:649;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L127 p:PName "Kuju Group";
+	 p:PCountry d:Japan;
+	 p:PRegion "Kyushu-Japan";
+	 p:PLatitude "33.08";
+	 p:PLongitude "131.25";
+	 p:PElev d:1788;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L128 p:PName d:Kupreanof;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska Peninsula";
+	 p:PLatitude "56.02";
+	 p:PLongitude "-159.8";
+	 p:PElev d:1895;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L129 p:PName "Kusatsu-Shirane";
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "36.62";
+	 p:PLongitude "138.55";
+	 p:PElev d:2176;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L130 p:PName d:Kuwae;
+	 p:PCountry d:Vanuatu;
+	 p:PRegion "Vanuatu-SW Pacific";
+	 p:PLatitude "-16.829";
+	 p:PLongitude "168.536";
+	 p:PElev "-2";
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L131 p:PName d:Kverkfjoll;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-NE";
+	 p:PLatitude "64.65";
+	 p:PLongitude "-16.72";
+	 p:PElev d:1920;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L132 p:PName "La Palma";
+	 p:PCountry d:Spain;
+	 p:PRegion "Canary Is";
+	 p:PLatitude "28.58";
+	 p:PLongitude "-17.83";
+	 p:PElev d:2426;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L133 p:PName d:Lakagigar;
+	 p:PCountry d:Sweden;
+	 p:PRegion "Iceland-NE";
+	 p:PLatitude "64.42";
+	 p:PLongitude "17.33";
+	 p:PElev d:1725;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L134 p:PName d:Lambafit;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-S";
+	 p:PLatitude "64.08";
+	 p:PLongitude "-19.4";
+	 p:PElev d:550;
+	 p:PType "Crater rows";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L135 p:PName d:Langila;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Britain-SW Pac";
+	 p:PLatitude "-5.525";
+	 p:PLongitude "148.42";
+	 p:PElev d:1330;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L136 p:PName d:Lascar;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-N";
+	 p:PLatitude "-23.37";
+	 p:PLongitude "-67.73";
+	 p:PElev d:5592;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L137 p:PName "Lengai, Ol Doinyo";
+	 p:PCountry d:Tanzania;
+	 p:PRegion "Africa-E";
+	 p:PLatitude "-2.751";
+	 p:PLongitude "35.902";
+	 p:PElev d:2890;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L138 p:PName d:Lewotobi;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.53";
+	 p:PLongitude "122.775";
+	 p:PElev d:1703;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L139 p:PName "Lewotobi Perempuan";
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.575";
+	 p:PLongitude "122.78";
+	 p:PElev d:1703;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L140 p:PName d:Llaima;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-38.692";
+	 p:PLongitude "-71.729";
+	 p:PElev d:3125;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L141 p:PName d:Loihi;
+	 p:PCountry "United States";
+	 p:PRegion "Hawaiian Is";
+	 p:PLatitude "18.92";
+	 p:PLongitude "-155.27";
+	 p:PElev "-975";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L142 p:PName "Lokon-Empung";
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Sulawesi-Indonesia";
+	 p:PLatitude "1.358";
+	 p:PLongitude "124.792";
+	 p:PElev d:1580;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L143 p:PName "Long Island";
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Guinea-NE of";
+	 p:PLatitude "-5.358";
+	 p:PLongitude "147.12";
+	 p:PElev d:1280;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L144 p:PName d:Lonquimay;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-38.377";
+	 p:PLongitude "-71.58";
+	 p:PElev d:2865;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L145 p:PName d:Lopevi;
+	 p:PCountry d:Vanuatu;
+	 p:PRegion "Vanuatu-SW Pacific";
+	 p:PLatitude "-16.507";
+	 p:PLongitude "168.346";
+	 p:PElev d:1413;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L146 p:PName d:Macdonald;
+	 p:PCountry d:Antarctica;
+	 p:PRegion "Austral Is-C Pacific";
+	 p:PLatitude "-28.98";
+	 p:PLongitude "-140.25";
+	 p:PElev "-50";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L147 p:PName d:Mahawu;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Sulawesi-Indonesia";
+	 p:PLatitude "1.358";
+	 p:PLongitude "124.858";
+	 p:PElev d:1324;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L148 p:PName d:Makian;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Halmahera-Indonesia";
+	 p:PLatitude "0.32";
+	 p:PLongitude "127.4";
+	 p:PElev d:1357;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L149 p:PName d:Makushin;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "53.9";
+	 p:PLongitude "-166.93";
+	 p:PElev d:2036;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L150 p:PName d:Manam;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Guinea-NE of";
+	 p:PLatitude "-4.1";
+	 p:PLongitude "145.061";
+	 p:PElev d:1807;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L151 p:PName d:Marapi;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "-0.381";
+	 p:PLongitude "100.473";
+	 p:PElev d:2891;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L152 p:PName d:Marchena;
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Galapagos;
+	 p:PLatitude "0.33";
+	 p:PLongitude "-90.47";
+	 p:PElev d:343;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L153 p:PName "Marion Island";
+	 p:PCountry "South Africa";
+	 p:PRegion "Indian O-S";
+	 p:PLatitude "-46.9";
+	 p:PLongitude "37.75";
+	 p:PElev d:1230;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L154 p:PName d:Masaya;
+	 p:PCountry d:Nicaragua;
+	 p:PRegion d:Nicaragua;
+	 p:PLatitude "11.984";
+	 p:PLongitude "-86.161";
+	 p:PElev d:635;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L155 p:PName "Mauna Loa";
+	 p:PCountry "United States";
+	 p:PRegion "Hawaiian Is";
+	 p:PLatitude "19.475";
+	 p:PLongitude "-155.608";
+	 p:PElev d:4170;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L156 p:PName d:Mayon;
+	 p:PCountry d:Philippines;
+	 p:PRegion "Luzon-Philippines";
+	 p:PLatitude "13.257";
+	 p:PLongitude "123.685";
+	 p:PElev d:2462;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L157 p:PName "McDonald Islands";
+	 p:PCountry "Indian Ocean";
+	 p:PRegion "Indian O-S";
+	 p:PLatitude "-53.03";
+	 p:PLongitude "72.6";
+	 p:PElev d:186;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L158 p:PName d:Medvezhia;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "45.38";
+	 p:PLongitude "148.83";
+	 p:PElev d:1124;
+	 p:PType "Somma volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L159 p:PName d:Merapi;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-7.542";
+	 p:PLongitude "110.442";
+	 p:PElev d:2947;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L160 p:PName "Metis Shoal";
+	 p:PCountry d:Tonga;
+	 p:PRegion "Tonga-SW Pacific";
+	 p:PLatitude "-19.18";
+	 p:PLongitude "-174.87";
+	 p:PElev d:43;
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L161 p:PName "Minami-Hiyoshi";
+	 p:PCountry d:Japan;
+	 p:PRegion "Volcano Is-Japan";
+	 p:PLatitude "23.507";
+	 p:PLongitude "141.905";
+	 p:PElev "-30";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L162 p:PName "Miyake-jima";
+	 p:PCountry d:Japan;
+	 p:PRegion "Izu Is-Japan";
+	 p:PLatitude "34.08";
+	 p:PLongitude "139.53";
+	 p:PElev d:815;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L163 p:PName "Monowai Seamount";
+	 p:PCountry "New Zealand";
+	 p:PRegion "Kermadec Is";
+	 p:PLatitude "-25.887";
+	 p:PLongitude "-177.188";
+	 p:PElev "-100";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L164 p:PName d:Mundafell;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-S";
+	 p:PLatitude "63.98";
+	 p:PLongitude "-19.7";
+	 p:PElev d:1491;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L165 p:PName "Negra, Sierra";
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Galapagos;
+	 p:PLatitude "-0.83";
+	 p:PLongitude "-91.17";
+	 p:PElev d:1490;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L166 p:PName "Negro, Cerro";
+	 p:PCountry d:Nicaragua;
+	 p:PRegion d:Nicaragua;
+	 p:PLatitude "12.506";
+	 p:PLongitude "-86.702";
+	 p:PElev d:728;
+	 p:PType "Cinder cone";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L167 p:PName d:Ngauruhoe;
+	 p:PCountry "New Zealand";
+	 p:PRegion "New Zealand";
+	 p:PLatitude "-39.158";
+	 p:PLongitude "175.63";
+	 p:PElev d:2291;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L168 p:PName "Niigata-Yake-yama";
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "36.92";
+	 p:PLongitude "138.03";
+	 p:PElev d:2400;
+	 p:PType "Lava dome";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L169 p:PName d:Nila;
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "Banda Sea";
+	 p:PLatitude "-6.73";
+	 p:PLongitude "129.5";
+	 p:PElev d:781;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L170 p:PName "Nishino-shima";
+	 p:PCountry d:Japan;
+	 p:PRegion "Volcano Is-Japan";
+	 p:PLatitude "27.243";
+	 p:PLongitude "140.877";
+	 p:PElev d:52;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L171 p:PName "Niuafo'ou";
+	 p:PCountry d:Tonga;
+	 p:PRegion "Tonga-SW Pacific";
+	 p:PLatitude "-15.6";
+	 p:PLongitude "-175.63";
+	 p:PElev d:260;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L172 p:PName "North Gorda Ridge";
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "Pacific-NE";
+	 p:PLatitude "42.67";
+	 p:PLongitude "-126.78";
+	 p:PElev "-3000";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L173 p:PName d:Nyamuragira;
+	 p:PCountry "Congo, DRC";
+	 p:PRegion "Africa-C";
+	 p:PLatitude "-1.408";
+	 p:PLongitude "29.2";
+	 p:PElev d:3058;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L174 p:PName d:Nyiragongo;
+	 p:PCountry "Congo, DRC";
+	 p:PRegion "Africa-C";
+	 p:PLatitude "-1.52";
+	 p:PLongitude "29.25";
+	 p:PElev d:3470;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L175 p:PName d:Okataina;
+	 p:PCountry "New Zealand";
+	 p:PRegion "New Zealand";
+	 p:PLatitude "-38.12";
+	 p:PLongitude "176.5";
+	 p:PElev d:1111;
+	 p:PType "Lava dome";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L176 p:PName d:Okmok;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "53.42";
+	 p:PLongitude "-168.13";
+	 p:PElev d:1073;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L177 p:PName "On-take";
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "35.9";
+	 p:PLongitude "137.48";
+	 p:PElev d:3063;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L178 p:PName d:Oshima;
+	 p:PCountry d:Japan;
+	 p:PRegion "Izu Is-Japan";
+	 p:PLatitude "34.73";
+	 p:PLongitude "139.38";
+	 p:PElev d:758;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L179 p:PName d:Pacaya;
+	 p:PCountry d:Guatemala;
+	 p:PRegion d:Guatemala;
+	 p:PLatitude "14.381";
+	 p:PLongitude "-90.601";
+	 p:PElev d:2552;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L180 p:PName d:Pagan;
+	 p:PCountry "United States";
+	 p:PRegion "Mariana Is-C Pacific";
+	 p:PLatitude "18.13";
+	 p:PLongitude "145.8";
+	 p:PElev d:570;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L181 p:PName d:Paluweh;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.32";
+	 p:PLongitude "121.708";
+	 p:PElev d:875;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L182 p:PName d:Pavlof;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska Peninsula";
+	 p:PLatitude "55.42";
+	 p:PLongitude "-161.9";
+	 p:PElev d:2519;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L183 p:PName "Peuet Sague";
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "4.914";
+	 p:PLongitude "96.329";
+	 p:PElev d:2801;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L184 p:PName d:Pinatubo;
+	 p:PCountry d:Philippines;
+	 p:PRegion "Luzon-Philippines";
+	 p:PLatitude "15.13";
+	 p:PLongitude "120.35";
+	 p:PElev d:1486;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L185 p:PName d:Piparo;
+	 p:PCountry d:Trinidad;
+	 p:PRegion d:Trinidad;
+	 p:PLatitude d:10;
+	 p:PLongitude "-61";
+	 p:PElev d:140;
+	 p:PType "Mud volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L186 p:PName "Planchon-Peteroa";
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-35.24";
+	 p:PLongitude "-70.57";
+	 p:PElev d:4107;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L187 p:PName d:Poas;
+	 p:PCountry "Costa Rica";
+	 p:PRegion "Costa Rica";
+	 p:PLatitude "10.2";
+	 p:PLongitude "-84.233";
+	 p:PElev d:2708;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L188 p:PName d:Popocatepetl;
+	 p:PCountry d:Mexico;
+	 p:PRegion d:Mexico;
+	 p:PLatitude "19.023";
+	 p:PLongitude "-98.622";
+	 p:PElev d:5426;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L189 p:PName d:Purace;
+	 p:PCountry d:Colombia;
+	 p:PRegion d:Colombia;
+	 p:PLatitude "2.32";
+	 p:PLongitude "-76.4";
+	 p:PElev d:4650;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L190 p:PName d:Putana;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-N";
+	 p:PLatitude "-22.57";
+	 p:PLongitude "-67.87";
+	 p:PElev d:5890;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L191 p:PName d:Rabaul;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Britain-SW Pac";
+	 p:PLatitude "-4.271";
+	 p:PLongitude "152.203";
+	 p:PElev d:688;
+	 p:PType "Pyroclastic shield";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L192 p:PName d:Ranakah;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.62";
+	 p:PLongitude "120.52";
+	 p:PElev d:2100;
+	 p:PType "Lava dome";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L193 p:PName "Raoul Island";
+	 p:PCountry "New Zealand";
+	 p:PRegion "Kermadec Is";
+	 p:PLatitude "-29.27";
+	 p:PLongitude "-177.92";
+	 p:PElev d:516;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L194 p:PName d:Raung;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-8.125";
+	 p:PLongitude "114.042";
+	 p:PElev d:3332;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L195 p:PName d:Redoubt;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska-SW";
+	 p:PLatitude "60.48";
+	 p:PLongitude "-152.75";
+	 p:PElev d:3108;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L196 p:PName d:Reventador;
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Ecuador;
+	 p:PLatitude "-0.078";
+	 p:PLongitude "-77.656";
+	 p:PElev d:3562;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L197 p:PName d:Reykjaneshryggur;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-SW";
+	 p:PLatitude "63.67";
+	 p:PLongitude "-23.33";
+	 p:PElev d:80;
+	 p:PType "Submarine volcanoes";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L198 p:PName "Rincon de la Vieja";
+	 p:PCountry "Costa Rica";
+	 p:PRegion "Costa Rica";
+	 p:PLatitude "10.83";
+	 p:PLongitude "-85.324";
+	 p:PElev d:1916;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L199 p:PName d:Rinjani;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.42";
+	 p:PLongitude "116.47";
+	 p:PElev d:3726;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L200 p:PName "Ritter Island";
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Guinea-NE of";
+	 p:PLatitude "-5.52";
+	 p:PLongitude "148.121";
+	 p:PElev d:140;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L201 p:PName d:Ruapehu;
+	 p:PCountry "New Zealand";
+	 p:PRegion "New Zealand";
+	 p:PLatitude "-39.28";
+	 p:PLongitude "175.57";
+	 p:PElev d:2797;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L202 p:PName d:Ruby;
+	 p:PCountry "United States";
+	 p:PRegion "Mariana Is-C Pacific";
+	 p:PLatitude "15.62";
+	 p:PLongitude "145.57";
+	 p:PElev "-230";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L203 p:PName d:Ruiz;
+	 p:PCountry d:Colombia;
+	 p:PRegion d:Colombia;
+	 p:PLatitude "4.895";
+	 p:PLongitude "-75.322";
+	 p:PElev d:5321;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L204 p:PName "Rumble III";
+	 p:PCountry "New Zealand";
+	 p:PRegion "New Zealand";
+	 p:PLatitude "-35.745";
+	 p:PLongitude "178.478";
+	 p:PElev "-140";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Hydrophonic;
+	 p:PLast d:D1.
+d:L205 p:PName d:Sabancaya;
+	 p:PCountry d:Peru;
+	 p:PRegion d:Peru;
+	 p:PLatitude "-15.78";
+	 p:PLongitude "-71.85";
+	 p:PElev d:5967;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L206 p:PName "Sakura-jima";
+	 p:PCountry d:Japan;
+	 p:PRegion "Kyushu-Japan";
+	 p:PLatitude "31.58";
+	 p:PLongitude "130.67";
+	 p:PElev d:1117;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L207 p:PName "San Cristobal";
+	 p:PCountry d:Nicaragua;
+	 p:PRegion d:Nicaragua;
+	 p:PLatitude "12.702";
+	 p:PLongitude "-87.004";
+	 p:PElev d:1745;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L208 p:PName "San Miguel";
+	 p:PCountry "El Salvador";
+	 p:PRegion "El Salvador";
+	 p:PLatitude "13.431";
+	 p:PLongitude "-88.272";
+	 p:PElev d:2130;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L209 p:PName d:Sangay;
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Ecuador;
+	 p:PLatitude "-2.03";
+	 p:PLongitude "-78.33";
+	 p:PElev d:5230;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L210 p:PName "Sangeang Api";
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.18";
+	 p:PLongitude "119.058";
+	 p:PElev d:1949;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L211 p:PName "Santa Maria";
+	 p:PCountry d:Guatemala;
+	 p:PRegion d:Guatemala;
+	 p:PLatitude "14.756";
+	 p:PLongitude "-91.552";
+	 p:PElev d:3772;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L212 p:PName "Sarychev Peak";
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "48.092";
+	 p:PLongitude "153.2";
+	 p:PElev d:1496;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L213 p:PName d:Seguam;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "52.32";
+	 p:PLongitude "-172.52";
+	 p:PElev d:1054;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L214 p:PName d:Semeru;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-8.108";
+	 p:PLongitude "112.92";
+	 p:PElev d:3676;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L215 p:PName d:Semisopochnoi;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "51.95";
+	 p:PLongitude "179.62";
+	 p:PElev d:1221;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L216 p:PName d:Shikotsu;
+	 p:PCountry d:Japan;
+	 p:PRegion "Hokkaido-Japan";
+	 p:PLatitude "42.7";
+	 p:PLongitude "141.33";
+	 p:PElev d:1320;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L217 p:PName d:Shishaldin;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "54.75";
+	 p:PLongitude "-163.97";
+	 p:PElev d:2857;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L218 p:PName d:Shiveluch;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "56.653";
+	 p:PLongitude "161.36";
+	 p:PElev d:3283;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L219 p:PName d:Sirung;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.51";
+	 p:PLongitude "124.148";
+	 p:PElev d:862;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L220 p:PName d:Slamet;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-7.242";
+	 p:PLongitude "109.208";
+	 p:PElev d:3432;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L221 p:PName d:Socorro;
+	 p:PCountry d:Mexico;
+	 p:PRegion "Mexico-Is";
+	 p:PLatitude "18.78";
+	 p:PLongitude "-110.95";
+	 p:PElev d:1050;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L222 p:PName d:Soputan;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Sulawesi-Indonesia";
+	 p:PLatitude "1.108";
+	 p:PLongitude "124.725";
+	 p:PElev d:1784;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L223 p:PName d:Sorikmarapi;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "0.686";
+	 p:PLongitude "99.539";
+	 p:PElev d:2145;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L224 p:PName "Soufriere Guadeloupe";
+	 p:PCountry d:Guadeloupe;
+	 p:PRegion "W Indies";
+	 p:PLatitude "16.05";
+	 p:PLongitude "-61.67";
+	 p:PElev d:1467;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L225 p:PName "Soufriere Hills";
+	 p:PCountry d:Montserrat;
+	 p:PRegion "W Indies";
+	 p:PLatitude "16.72";
+	 p:PLongitude "-62.18";
+	 p:PElev d:915;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L226 p:PName "Soufriere St. Vincent";
+	 p:PCountry "St. Vincent & the Grenadines";
+	 p:PRegion "W Indies";
+	 p:PLatitude "13.33";
+	 p:PLongitude "-61.18";
+	 p:PElev d:1220;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L227 p:PName d:Spurr;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska-SW";
+	 p:PLatitude "61.3";
+	 p:PLongitude "-152.25";
+	 p:PElev d:3374;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L228 p:PName "St. Helens";
+	 p:PCountry "United States";
+	 p:PRegion "US-Washington";
+	 p:PLatitude "46.2";
+	 p:PLongitude "-122.18";
+	 p:PElev d:2549;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L229 p:PName d:Stromboli;
+	 p:PCountry d:Italy;
+	 p:PRegion d:Italy;
+	 p:PLatitude "38.789";
+	 p:PLongitude "15.213";
+	 p:PElev d:926;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L230 p:PName d:Sundoro;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-7.3";
+	 p:PLongitude "109.992";
+	 p:PElev d:3136;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L231 p:PName "Supply Reef";
+	 p:PCountry "United States";
+	 p:PRegion "Mariana Is-C Pacific";
+	 p:PLatitude "20.13";
+	 p:PLongitude "145.1";
+	 p:PElev "-8";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Hydrophonic;
+	 p:PLast d:D1.
+d:L232 p:PName d:Suretamatai;
+	 p:PCountry d:Vanuatu;
+	 p:PRegion "Vanuatu-SW Pacific";
+	 p:PLatitude "-13.8";
+	 p:PLongitude "167.47";
+	 p:PElev d:921;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L233 p:PName "Suwanose-jima";
+	 p:PCountry d:Japan;
+	 p:PRegion "Ryukyu Is";
+	 p:PLatitude "29.53";
+	 p:PLongitude "129.72";
+	 p:PElev d:799;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L234 p:PName d:Taal;
+	 p:PCountry d:Philippines;
+	 p:PRegion "Luzon-Philippines";
+	 p:PLatitude "14.002";
+	 p:PLongitude "120.993";
+	 p:PElev d:400;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L235 p:PName d:Tacana;
+	 p:PCountry d:Mexico;
+	 p:PRegion d:Mexico;
+	 p:PLatitude "15.13";
+	 p:PLongitude "-92.112";
+	 p:PElev d:4110;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L236 p:PName d:Talang;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "-0.978";
+	 p:PLongitude "100.679";
+	 p:PElev d:2597;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L237 p:PName d:Tambora;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.25";
+	 p:PLongitude d:118;
+	 p:PElev d:2850;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L238 p:PName d:Tangkubanparahu;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-6.77";
+	 p:PLongitude "107.6";
+	 p:PElev d:2084;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L239 p:PName d:Telica;
+	 p:PCountry d:Nicaragua;
+	 p:PRegion d:Nicaragua;
+	 p:PLatitude "12.602";
+	 p:PLongitude "-86.845";
+	 p:PElev d:1061;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L240 p:PName "Tengger Caldera";
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-7.942";
+	 p:PLongitude "112.95";
+	 p:PElev d:2329;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L241 p:PName d:Terceira;
+	 p:PCountry d:Portugal;
+	 p:PRegion d:Azores;
+	 p:PLatitude "38.73";
+	 p:PLongitude "-27.32";
+	 p:PElev d:1023;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L242 p:PName "Thule Islands";
+	 p:PCountry d:Antarctica;
+	 p:PRegion d:Antarctica;
+	 p:PLatitude "-59.45";
+	 p:PLongitude "-27.37";
+	 p:PElev d:1075;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L243 p:PName d:Tiatia;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "44.358";
+	 p:PLongitude "146.27";
+	 p:PElev d:1819;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L244 p:PName d:Tinakula;
+	 p:PCountry "Solomon Is.";
+	 p:PRegion "Santa Cruz Is-SW Pac";
+	 p:PLatitude "-10.38";
+	 p:PLongitude "165.8";
+	 p:PElev d:851;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L245 p:PName d:Tokachi;
+	 p:PCountry d:Japan;
+	 p:PRegion "Hokkaido-Japan";
+	 p:PLatitude "43.42";
+	 p:PLongitude "142.68";
+	 p:PElev d:2077;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L246 p:PName d:Tolbachik;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "55.83";
+	 p:PLongitude "160.33";
+	 p:PElev d:3682;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L247 p:PName d:Tongariro;
+	 p:PCountry "New Zealand";
+	 p:PRegion "New Zealand";
+	 p:PLatitude "-39.13";
+	 p:PLongitude "175.642";
+	 p:PElev d:1978;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L248 p:PName "Tori-shima";
+	 p:PCountry d:Japan;
+	 p:PRegion "Izu Is-Japan";
+	 p:PLatitude "30.48";
+	 p:PLongitude "140.32";
+	 p:PElev d:403;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L249 p:PName d:Trident;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska Peninsula";
+	 p:PLatitude "58.23";
+	 p:PLongitude "-155.08";
+	 p:PElev d:1864;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L250 p:PName d:Tungurahua;
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Ecuador;
+	 p:PLatitude "-1.467";
+	 p:PLongitude "-78.442";
+	 p:PElev d:5023;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L251 p:PName d:Tupungatito;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-33.4";
+	 p:PLongitude "-69.8";
+	 p:PElev d:6000;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L252 p:PName d:Ubinas;
+	 p:PCountry d:Peru;
+	 p:PRegion d:Peru;
+	 p:PLatitude "-16.355";
+	 p:PLongitude "-70.903";
+	 p:PElev d:5672;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L253 p:PName "Ukinrek Maars";
+	 p:PCountry "United States";
+	 p:PRegion "Alaska Peninsula";
+	 p:PLatitude "57.83";
+	 p:PLongitude "-156.52";
+	 p:PElev d:91;
+	 p:PType d:Maar;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L254 p:PName d:Ulawun;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Britain-SW Pac";
+	 p:PLatitude "-5.05";
+	 p:PLongitude "151.33";
+	 p:PElev d:2334;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L255 p:PName d:Unnamed;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "46.47";
+	 p:PLongitude "151.28";
+	 p:PElev "-502";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Hydrophonic;
+	 p:PLast d:D1.
+d:L256 p:PName d:Unnamed;
+	 p:PCountry "United States";
+	 p:PRegion "Admiralty Is-SW Paci";
+	 p:PLatitude "-3.03";
+	 p:PLongitude "147.78";
+	 p:PElev "-1300";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Hydrophonic;
+	 p:PLast d:D1.
+d:L257 p:PName d:Unnamed;
+	 p:PCountry d:Tonga;
+	 p:PRegion "Tonga-SW Pacific";
+	 p:PLatitude "-20.85";
+	 p:PLongitude "-175.53";
+	 p:PElev "-13";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L258 p:PName d:Unnamed;
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "Pacific-E";
+	 p:PLatitude "9.82";
+	 p:PLongitude "-104.3";
+	 p:PElev "-2500";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L259 p:PName d:Unnamed;
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "SW Pacific";
+	 p:PLatitude "-25.78";
+	 p:PLongitude "168.63";
+	 p:PElev "-2400";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Hydrophonic;
+	 p:PLast d:D1.
+d:L260 p:PName d:Unnamed;
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "Pacific-E";
+	 p:PLatitude "-17.436";
+	 p:PLongitude "-113.206";
+	 p:PElev "-2566";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L261 p:PName d:Unnamed;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude d:52;
+	 p:PLongitude "-173.5";
+	 p:PElev d:0;
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Hydrophonic;
+	 p:PLast d:D1.
+d:L262 p:PName d:Unzen;
+	 p:PCountry d:Japan;
+	 p:PRegion "Kyushu-Japan";
+	 p:PLatitude "32.75";
+	 p:PLongitude "130.3";
+	 p:PElev d:1500;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L263 p:PName d:Usu;
+	 p:PCountry d:Japan;
+	 p:PRegion "Hokkaido-Japan";
+	 p:PLatitude "42.53";
+	 p:PLongitude "140.83";
+	 p:PElev d:731;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L264 p:PName d:Veniaminof;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska Peninsula";
+	 p:PLatitude "56.17";
+	 p:PLongitude "-159.38";
+	 p:PElev d:2507;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L265 p:PName d:Vestmannaeyjar;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-S";
+	 p:PLatitude "63.43";
+	 p:PLongitude "-20.28";
+	 p:PElev d:279;
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L266 p:PName "Viedma, Volcan";
+	 p:PCountry d:Argentina;
+	 p:PRegion d:Argentina;
+	 p:PLatitude "-49.358";
+	 p:PLongitude "-73.28";
+	 p:PElev d:1300;
+	 p:PType "Subglacial volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L267 p:PName d:Villarrica;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-39.42";
+	 p:PLongitude "-71.93";
+	 p:PElev d:2847;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L268 p:PName d:Westdahl;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "54.52";
+	 p:PLongitude "-164.65";
+	 p:PElev d:1654;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L269 p:PName "White Island";
+	 p:PCountry "New Zealand";
+	 p:PRegion "New Zealand";
+	 p:PLatitude "-37.52";
+	 p:PLongitude "177.18";
+	 p:PElev d:321;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L270 p:PName "Wolf, Volcan";
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Galapagos;
+	 p:PLatitude "0.02";
+	 p:PLongitude "-91.35";
+	 p:PElev d:1710;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L271 p:PName "Yake-dake";
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "36.22";
+	 p:PLongitude "137.58";
+	 p:PElev d:2455;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L272 p:PName d:Yasur;
+	 p:PCountry d:Vanuatu;
+	 p:PRegion "Vanuatu-SW Pacific";
+	 p:PLatitude "-19.52";
+	 p:PLongitude "169.425";
+	 p:PElev d:361;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L273 p:PName d:Zheltovsky;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "51.57";
+	 p:PLongitude "157.323";
+	 p:PElev d:1953;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D1.
+d:L274 p:PName d:Agrigan;
+	 p:PCountry "United States";
+	 p:PRegion "Mariana Is-C Pacific";
+	 p:PLatitude "18.77";
+	 p:PLongitude "145.67";
+	 p:PElev d:965;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L275 p:PName d:Alayta;
+	 p:PCountry d:Ethiopia;
+	 p:PRegion "Africa-NE";
+	 p:PLatitude "12.88";
+	 p:PLongitude "40.57";
+	 p:PElev d:1501;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L276 p:PName d:Aniakchak;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska Peninsula";
+	 p:PLatitude "56.88";
+	 p:PLongitude "-158.17";
+	 p:PElev d:1341;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L277 p:PName "Arjuno-Welirang";
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-7.725";
+	 p:PLongitude "112.58";
+	 p:PElev d:3339;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L278 p:PName d:Askja;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-NE";
+	 p:PLatitude "65.03";
+	 p:PLongitude "-16.75";
+	 p:PElev d:1516;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L279 p:PName d:Asuncion;
+	 p:PCountry "United States";
+	 p:PRegion "Mariana Is-C Pacific";
+	 p:PLatitude "19.67";
+	 p:PLongitude "145.4";
+	 p:PElev d:857;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L280 p:PName d:Atsonupuri;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "44.804";
+	 p:PLongitude "147.13";
+	 p:PElev d:1205;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L281 p:PName "Babuyan Claro";
+	 p:PCountry d:Philippines;
+	 p:PRegion "Luzon-N of";
+	 p:PLatitude "19.523";
+	 p:PLongitude "121.94";
+	 p:PElev d:1180;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L282 p:PName d:Bam;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Guinea-NE of";
+	 p:PLatitude "-3.6";
+	 p:PLongitude "144.85";
+	 p:PElev d:685;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L283 p:PName "Banua Wuhu";
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Sangihe Is-Indonesia";
+	 p:PLatitude "3.138";
+	 p:PLongitude "125.491";
+	 p:PElev "-5";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L284 p:PName d:Baransky;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "45.1";
+	 p:PLongitude "148.02";
+	 p:PElev d:1132;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L285 p:PName d:Barcena;
+	 p:PCountry d:Mexico;
+	 p:PRegion "Mexico-Is";
+	 p:PLatitude "19.3";
+	 p:PLongitude "-110.82";
+	 p:PElev d:332;
+	 p:PType "Cinder cone";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L286 p:PName d:Bardarbunga;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-NE";
+	 p:PLatitude "64.63";
+	 p:PLongitude "-17.53";
+	 p:PElev d:2000;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L287 p:PName "Barrier, The";
+	 p:PCountry d:Kenya;
+	 p:PRegion "Africa-E";
+	 p:PLatitude "2.32";
+	 p:PLongitude "36.57";
+	 p:PElev d:1032;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L288 p:PName d:Besar;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "-4.43";
+	 p:PLongitude "103.67";
+	 p:PElev d:1899;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L289 p:PName d:Biliran;
+	 p:PCountry d:Philippines;
+	 p:PRegion "Philippines-C";
+	 p:PLatitude "11.523";
+	 p:PLongitude "124.534";
+	 p:PElev d:1187;
+	 p:PType "Compound volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L290 p:PName "Bristol Island";
+	 p:PCountry d:Antarctica;
+	 p:PRegion d:Antarctica;
+	 p:PLatitude "-59.03";
+	 p:PLongitude "-26.58";
+	 p:PElev d:1100;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L291 p:PName "Burney, Monte";
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-S";
+	 p:PLatitude "-52.33";
+	 p:PLongitude "-73.4";
+	 p:PElev d:1758;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L292 p:PName d:Calbuco;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-S";
+	 p:PLatitude "-41.326";
+	 p:PLongitude "-72.614";
+	 p:PElev d:2003;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L293 p:PName "Candlemas Island";
+	 p:PCountry d:Antarctica;
+	 p:PRegion d:Antarctica;
+	 p:PLatitude "-57.08";
+	 p:PLongitude "-26.67";
+	 p:PElev d:550;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L294 p:PName "Cendres, Ile des";
+	 p:PCountry d:Vietnam;
+	 p:PRegion "SE Asia";
+	 p:PLatitude "10.158";
+	 p:PLongitude "109.014";
+	 p:PElev "-20";
+	 p:PType "Submarine volcanoes";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L295 p:PName d:Cereme;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-6.892";
+	 p:PLongitude "108.4";
+	 p:PElev d:3078;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L296 p:PName "Cordon Caulle";
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-40.52";
+	 p:PLongitude "-72.2";
+	 p:PElev d:1798;
+	 p:PType "Fissure vent";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L297 p:PName d:Cotopaxi;
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Ecuador;
+	 p:PLatitude "-0.677";
+	 p:PLongitude "-78.436";
+	 p:PElev d:5911;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L298 p:PName d:Cumbal;
+	 p:PCountry d:Colombia;
+	 p:PRegion d:Colombia;
+	 p:PLatitude "0.98";
+	 p:PLongitude "-77.88";
+	 p:PElev d:4764;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L299 p:PName d:Dallol;
+	 p:PCountry d:Ethiopia;
+	 p:PRegion "Africa-NE";
+	 p:PLatitude "14.242";
+	 p:PLongitude "40.3";
+	 p:PElev "-48";
+	 p:PType "Explosion crater";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L300 p:PName "Descabezado Grande";
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-35.58";
+	 p:PLongitude "-70.75";
+	 p:PElev d:3953;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L301 p:PName "Dhamar, Harras of";
+	 p:PCountry d:Yemen;
+	 p:PRegion "Arabia-S";
+	 p:PLatitude "14.57";
+	 p:PLongitude "44.67";
+	 p:PElev d:3500;
+	 p:PType "Volcanic field";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L302 p:PName "Dona Juana";
+	 p:PCountry d:Colombia;
+	 p:PRegion d:Colombia;
+	 p:PLatitude "1.47";
+	 p:PLongitude "-76.92";
+	 p:PElev d:4150;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L303 p:PName d:Egon;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.67";
+	 p:PLongitude "122.45";
+	 p:PElev d:1703;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L304 p:PName d:Emuruangogolak;
+	 p:PCountry d:Kenya;
+	 p:PRegion "Africa-E";
+	 p:PLatitude "1.5";
+	 p:PLongitude "36.33";
+	 p:PElev d:1328;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Radiocarbon;
+	 p:PLast d:D2.
+d:L305 p:PName d:Esjufjoll;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-SE";
+	 p:PLatitude "64.27";
+	 p:PLongitude "-16.65";
+	 p:PElev d:1760;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L306 p:PName "Falcon Island";
+	 p:PCountry d:Tonga;
+	 p:PRegion "Tonga-SW Pacific";
+	 p:PLatitude "-20.32";
+	 p:PLongitude "-175.42";
+	 p:PElev "-17";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L307 p:PName d:Fayal;
+	 p:PCountry d:Portugal;
+	 p:PRegion d:Azores;
+	 p:PLatitude "38.6";
+	 p:PLongitude "-28.73";
+	 p:PElev d:1043;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L308 p:PName d:Fonualei;
+	 p:PCountry d:Tonga;
+	 p:PRegion "Tonga-SW Pacific";
+	 p:PLatitude "-18.02";
+	 p:PLongitude "-174.325";
+	 p:PElev d:200;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L309 p:PName d:Gede;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-6.78";
+	 p:PLongitude "106.98";
+	 p:PElev d:2958;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L310 p:PName d:Geureudong;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "4.813";
+	 p:PLongitude "96.82";
+	 p:PElev d:2885;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L311 p:PName "Goriaschaia Sopka";
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "46.83";
+	 p:PLongitude "151.75";
+	 p:PElev d:891;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L312 p:PName d:Guallatiri;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-N";
+	 p:PLatitude "-18.42";
+	 p:PLongitude "-69.17";
+	 p:PElev d:6071;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L313 p:PName "Hibok-Hibok";
+	 p:PCountry d:Philippines;
+	 p:PRegion "Mindanao-Philippines";
+	 p:PLatitude "9.203";
+	 p:PLongitude "124.673";
+	 p:PElev d:1332;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L314 p:PName d:Huequi;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-S";
+	 p:PLatitude "-42.377";
+	 p:PLongitude "-72.578";
+	 p:PElev d:1318;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L315 p:PName "Hunter Island";
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "SW Pacific";
+	 p:PLatitude "-22.4";
+	 p:PLongitude "172.05";
+	 p:PElev d:297;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L316 p:PName d:Iliamna;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska-SW";
+	 p:PLatitude "60.03";
+	 p:PLongitude "-153.08";
+	 p:PElev d:3053;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L317 p:PName d:Ilyinsky;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "51.49";
+	 p:PLongitude "157.2";
+	 p:PElev d:1578;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L318 p:PName d:Inielika;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.73";
+	 p:PLongitude "120.98";
+	 p:PElev d:1559;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L319 p:PName "Iriomote-jima";
+	 p:PCountry d:Japan;
+	 p:PRegion "Ryukyu Is";
+	 p:PLatitude "24.558";
+	 p:PLongitude d:124;
+	 p:PElev "-200";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L320 p:PName d:Isluga;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-N";
+	 p:PLatitude "-19.15";
+	 p:PLongitude "-68.83";
+	 p:PElev d:5050;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L321 p:PName d:Iwate;
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "39.85";
+	 p:PLongitude d:141;
+	 p:PElev d:2041;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L322 p:PName d:Kaba;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "-3.52";
+	 p:PLongitude "102.62";
+	 p:PElev d:1952;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L323 p:PName d:Kagamil;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "52.97";
+	 p:PLongitude "-169.72";
+	 p:PElev d:893;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L324 p:PName "Karpinsky Group";
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "50.13";
+	 p:PLongitude "155.37";
+	 p:PElev d:1345;
+	 p:PType d:Cone;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L325 p:PName d:Katla;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-S";
+	 p:PLatitude "63.63";
+	 p:PLongitude "-19.05";
+	 p:PElev d:1512;
+	 p:PType "Subglacial volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L326 p:PName d:Katmai;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska Peninsula";
+	 p:PLatitude "58.27";
+	 p:PLongitude "-154.98";
+	 p:PElev d:2047;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L327 p:PName d:Ketoi;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "47.35";
+	 p:PLongitude "152.475";
+	 p:PElev d:1172;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L328 p:PName d:Kharimkotan;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "49.12";
+	 p:PLongitude "154.508";
+	 p:PElev d:1145;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L329 p:PName "Kiaraberes-Gagak";
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-6.73";
+	 p:PLongitude "106.65";
+	 p:PElev d:1511;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L330 p:PName "Kita-Iwo-jima";
+	 p:PCountry d:Japan;
+	 p:PRegion "Volcano Is-Japan";
+	 p:PLatitude "25.43";
+	 p:PLongitude "141.23";
+	 p:PElev d:792;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L331 p:PName d:Kizimen;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "55.13";
+	 p:PLongitude "160.32";
+	 p:PElev d:2485;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L332 p:PName d:Koryaksky;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "53.32";
+	 p:PLongitude "158.688";
+	 p:PElev d:3456;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L333 p:PName d:Kronotsky;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "54.753";
+	 p:PLongitude "160.527";
+	 p:PElev d:3528;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L334 p:PName d:Ksudach;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "51.8";
+	 p:PLongitude "157.53";
+	 p:PElev d:1079;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L335 p:PName "Kunlun Volc Group";
+	 p:PCountry d:China;
+	 p:PRegion "China-W";
+	 p:PLatitude "35.52";
+	 p:PLongitude "80.2";
+	 p:PElev d:5808;
+	 p:PType "Pyroclastic cone";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L336 p:PName d:Kurikoma;
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "38.95";
+	 p:PLongitude "140.78";
+	 p:PElev d:1628;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L337 p:PName d:Lamington;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Guinea";
+	 p:PLatitude "-8.95";
+	 p:PLongitude "148.15";
+	 p:PElev d:1680;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L338 p:PName "Lassen Volc Center";
+	 p:PCountry "United States";
+	 p:PRegion "US-California";
+	 p:PLatitude "40.492";
+	 p:PLongitude "-121.508";
+	 p:PElev d:3187;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L339 p:PName d:Lautaro;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-S";
+	 p:PLatitude "-49.02";
+	 p:PLongitude "-73.55";
+	 p:PElev d:3380;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L340 p:PName d:Lewotolo;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Lesser Sunda Is";
+	 p:PLatitude "-8.272";
+	 p:PLongitude "123.505";
+	 p:PElev d:1423;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L341 p:PName "Loki-Fogrufjoll";
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-NE";
+	 p:PLatitude "64.48";
+	 p:PLongitude "-17.8";
+	 p:PElev d:1570;
+	 p:PType "Subglacial volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L342 p:PName d:Lolobau;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Britain-SW Pac";
+	 p:PLatitude "-4.92";
+	 p:PLongitude "151.158";
+	 p:PElev d:858;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L343 p:PName d:Mageik;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska Peninsula";
+	 p:PLatitude "58.2";
+	 p:PLongitude "-155.25";
+	 p:PElev d:2165;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L344 p:PName d:Maipo;
+	 p:PCountry d:Argentina;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-34.161";
+	 p:PLongitude "-69.833";
+	 p:PElev d:5264;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L345 p:PName "Maly Semiachik";
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "54.13";
+	 p:PLongitude "159.67";
+	 p:PElev d:1560;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L346 p:PName "Manda-Inakir";
+	 p:PCountry d:Ethiopia;
+	 p:PRegion "Africa-NE";
+	 p:PLatitude "12.38";
+	 p:PLongitude "42.2";
+	 p:PElev d:600;
+	 p:PType "Fissure vent";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L347 p:PName d:Martin;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska Peninsula";
+	 p:PLatitude "58.17";
+	 p:PLongitude "-155.35";
+	 p:PElev d:1860;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L348 p:PName "Matthew Island";
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "SW Pacific";
+	 p:PLatitude "-22.33";
+	 p:PLongitude "171.32";
+	 p:PElev d:177;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L349 p:PName d:Meru;
+	 p:PCountry d:Tanzania;
+	 p:PRegion "Africa-E";
+	 p:PLatitude "-3.25";
+	 p:PLongitude "36.75";
+	 p:PElev d:4565;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L350 p:PName "Michoacan-Guanajuato";
+	 p:PCountry d:Mexico;
+	 p:PRegion d:Mexico;
+	 p:PLatitude "19.48";
+	 p:PLongitude "-102.25";
+	 p:PElev d:3860;
+	 p:PType "Cinder cone";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L351 p:PName d:Miravalles;
+	 p:PCountry "Costa Rica";
+	 p:PRegion "Costa Rica";
+	 p:PLatitude "10.748";
+	 p:PLongitude "-85.153";
+	 p:PElev d:2028;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L352 p:PName "Mocho-Choshuenco";
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-39.927";
+	 p:PLongitude "-72.027";
+	 p:PElev d:2422;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L353 p:PName d:Momotombo;
+	 p:PCountry d:Nicaragua;
+	 p:PRegion d:Nicaragua;
+	 p:PLatitude "12.422";
+	 p:PLongitude "-86.54";
+	 p:PElev d:1297;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L354 p:PName "Monaco Bank";
+	 p:PCountry d:Portugal;
+	 p:PRegion d:Azores;
+	 p:PLatitude "37.6";
+	 p:PLongitude "-25.88";
+	 p:PElev "-197";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L355 p:PName d:Mutnovsky;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "52.453";
+	 p:PLongitude "158.195";
+	 p:PElev d:2322;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L356 p:PName "Nakano-shima";
+	 p:PCountry d:Japan;
+	 p:PRegion "Ryukyu Is";
+	 p:PLatitude "29.85";
+	 p:PLongitude "129.87";
+	 p:PElev d:979;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L357 p:PName d:Nasu;
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "37.12";
+	 p:PLongitude "139.97";
+	 p:PElev d:1917;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L358 p:PName "Negro de Mayasquer, Cerro";
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Colombia;
+	 p:PLatitude "0.828";
+	 p:PLongitude "-77.964";
+	 p:PElev d:4445;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Holocene;
+	 p:PLast d:D2.
+d:L359 p:PName "Nemo Peak";
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "49.57";
+	 p:PLongitude "154.808";
+	 p:PElev d:1018;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L360 p:PName d:Novarupta;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska Peninsula";
+	 p:PLatitude "58.27";
+	 p:PLongitude "-155.16";
+	 p:PElev d:841;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L361 p:PName "Ormus Islands";
+	 p:PCountry "Indian Ocean";
+	 p:PRegion "Arabia-S";
+	 p:PLatitude d:26;
+	 p:PLongitude d:57;
+	 p:PElev d:0;
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Holocene;
+	 p:PLast d:D2.
+d:L362 p:PName d:Pago;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Britain-SW Pac";
+	 p:PLatitude "-5.58";
+	 p:PLongitude "150.52";
+	 p:PElev d:742;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L363 p:PName d:Papandayan;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-7.32";
+	 p:PLongitude "107.73";
+	 p:PElev d:2665;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L364 p:PName "Paricutin Volcanic Field";
+	 p:PCountry d:Mexico;
+	 p:PRegion d:Mexico;
+	 p:PLatitude "19.48";
+	 p:PLongitude "-102.25";
+	 p:PElev d:3860;
+	 p:PType "Cinder cone";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L365 p:PName d:Pelee;
+	 p:PCountry d:Martinique;
+	 p:PRegion "W Indies";
+	 p:PLatitude "14.82";
+	 p:PLongitude "-61.17";
+	 p:PElev d:1397;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L366 p:PName "Penguin Island";
+	 p:PCountry d:Antarctica;
+	 p:PRegion d:Antarctica;
+	 p:PLatitude "-62.1";
+	 p:PLongitude "-57.93";
+	 p:PElev d:180;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Lichenometry;
+	 p:PLast d:D2.
+d:L367 p:PName "Pilas, Las";
+	 p:PCountry d:Nicaragua;
+	 p:PRegion d:Nicaragua;
+	 p:PLatitude "12.495";
+	 p:PLongitude "-86.688";
+	 p:PElev d:1088;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L368 p:PName d:Pinta;
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Galapagos;
+	 p:PLatitude "0.58";
+	 p:PLongitude "-90.75";
+	 p:PElev d:780;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L369 p:PName "Protector Shoal";
+	 p:PCountry d:Antarctica;
+	 p:PRegion d:Antarctica;
+	 p:PLatitude "-55.92";
+	 p:PLongitude "-28.08";
+	 p:PElev "-27";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L370 p:PName d:Ragang;
+	 p:PCountry d:Philippines;
+	 p:PRegion "Mindanao-Philippines";
+	 p:PLatitude "7.67";
+	 p:PLongitude "124.5";
+	 p:PElev d:2815;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L371 p:PName d:Raikoke;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "48.292";
+	 p:PLongitude "153.25";
+	 p:PElev d:551;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L372 p:PName d:Rasshua;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "47.77";
+	 p:PLongitude "153.02";
+	 p:PElev d:956;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L373 p:PName d:Ruang;
+	 p:PCountry d:Indonesia;
+	 p:PRegion "Sangihe Is-Indonesia";
+	 p:PLatitude "2.28";
+	 p:PLongitude "125.425";
+	 p:PElev d:725;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L374 p:PName d:Salak;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Java;
+	 p:PLatitude "-6.72";
+	 p:PLongitude "106.73";
+	 p:PElev d:2211;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L375 p:PName "San Jorge";
+	 p:PCountry d:Portugal;
+	 p:PRegion d:Azores;
+	 p:PLatitude "38.65";
+	 p:PLongitude "-28.08";
+	 p:PElev d:1053;
+	 p:PType "Fissure vent";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L376 p:PName "San Jose";
+	 p:PCountry d:Argentina;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-33.782";
+	 p:PLongitude "-69.897";
+	 p:PElev d:5856;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L377 p:PName "San Marcelino";
+	 p:PCountry "El Salvador";
+	 p:PRegion "El Salvador";
+	 p:PLatitude "13.853";
+	 p:PLongitude "-89.63";
+	 p:PElev d:2381;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L378 p:PName "San Pedro";
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-N";
+	 p:PLatitude "-21.88";
+	 p:PLongitude "-68.4";
+	 p:PElev d:6145;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L379 p:PName "San Salvador";
+	 p:PCountry "El Salvador";
+	 p:PRegion "El Salvador";
+	 p:PLatitude "13.736";
+	 p:PLongitude "-89.286";
+	 p:PElev d:1893;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L380 p:PName "Santa Ana";
+	 p:PCountry "El Salvador";
+	 p:PRegion "El Salvador";
+	 p:PLatitude "13.853";
+	 p:PLongitude "-89.63";
+	 p:PElev d:2365;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L381 p:PName "Santa Isabel";
+	 p:PCountry "Equatorial Guinea";
+	 p:PRegion "Africa-W";
+	 p:PLatitude "3.58";
+	 p:PLongitude "8.75";
+	 p:PElev d:2972;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L382 p:PName d:Santiago;
+	 p:PCountry d:Ecuador;
+	 p:PRegion d:Galapagos;
+	 p:PLatitude "-0.22";
+	 p:PLongitude "-90.77";
+	 p:PElev d:920;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L383 p:PName d:Santorini;
+	 p:PCountry d:Greece;
+	 p:PRegion d:Greece;
+	 p:PLatitude "36.404";
+	 p:PLongitude "25.396";
+	 p:PElev d:329;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L384 p:PName "Savai'i";
+	 p:PCountry d:Samoa;
+	 p:PRegion "Samoa-SW Pacific";
+	 p:PLatitude "-13.612";
+	 p:PLongitude "-172.525";
+	 p:PElev d:1858;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L385 p:PName d:Serua;
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "Banda Sea";
+	 p:PLatitude "-6.3";
+	 p:PLongitude d:130;
+	 p:PElev d:641;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L386 p:PName "Shiretoko-Iwo-zan";
+	 p:PCountry d:Japan;
+	 p:PRegion "Hokkaido-Japan";
+	 p:PLatitude "44.13";
+	 p:PLongitude "145.17";
+	 p:PElev d:1563;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L387 p:PName "Smith Rock";
+	 p:PCountry d:Japan;
+	 p:PRegion "Izu Is-Japan";
+	 p:PLatitude "31.32";
+	 p:PLongitude "140.05";
+	 p:PElev d:136;
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L388 p:PName "Smith Volcano";
+	 p:PCountry d:Philippines;
+	 p:PRegion "Luzon-N of";
+	 p:PLatitude "19.523";
+	 p:PLongitude "121.94";
+	 p:PElev d:2090;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L389 p:PName "St. Andrew Strait";
+	 p:PCountry "United States";
+	 p:PRegion "Admiralty Is-SW Paci";
+	 p:PLatitude "-2.38";
+	 p:PLongitude "147.35";
+	 p:PElev d:270;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L390 p:PName d:Sumbing;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "-2.414";
+	 p:PLongitude "101.728";
+	 p:PElev d:2507;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L391 p:PName d:Suoh;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "-5.25";
+	 p:PLongitude "104.27";
+	 p:PElev d:1000;
+	 p:PType d:Maar;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L392 p:PName d:Tanaga;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "51.88";
+	 p:PLongitude "-178.13";
+	 p:PElev d:1806;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L393 p:PName d:Tandikat;
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "-0.433";
+	 p:PLongitude "100.317";
+	 p:PElev d:2438;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L394 p:PName "Tao-Rusyr Caldera";
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "49.35";
+	 p:PLongitude "154.7";
+	 p:PElev d:1325;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L395 p:PName "Telong, Bur Ni";
+	 p:PCountry d:Indonesia;
+	 p:PRegion d:Sumatra;
+	 p:PLatitude "4.77";
+	 p:PLongitude "96.808";
+	 p:PElev d:2624;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L396 p:PName d:Tenerife;
+	 p:PCountry d:Spain;
+	 p:PRegion "Canary Is";
+	 p:PLatitude "28.271";
+	 p:PLongitude "-16.641";
+	 p:PElev d:3715;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L397 p:PName d:Teon;
+	 p:PCountry "Pacific Ocean";
+	 p:PRegion "Banda Sea";
+	 p:PLatitude "-6.92";
+	 p:PLongitude "129.125";
+	 p:PElev d:655;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L398 p:PName d:Thordarhyrna;
+	 p:PCountry d:Iceland;
+	 p:PRegion "Iceland-S";
+	 p:PLatitude "62.27";
+	 p:PLongitude "-17.6";
+	 p:PElev d:1659;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L399 p:PName d:Tinguiririca;
+	 p:PCountry d:Chile;
+	 p:PRegion "Chile-C";
+	 p:PLatitude "-34.814";
+	 p:PLongitude "-70.352";
+	 p:PElev d:4280;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L400 p:PName d:Tofua;
+	 p:PCountry d:Tonga;
+	 p:PRegion "Tonga-SW Pacific";
+	 p:PLatitude "-19.75";
+	 p:PLongitude "-175.07";
+	 p:PElev d:512;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L401 p:PName d:Tolima;
+	 p:PCountry d:Colombia;
+	 p:PRegion d:Colombia;
+	 p:PLatitude "4.67";
+	 p:PLongitude "-75.33";
+	 p:PElev d:5200;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L402 p:PName "Tristan da Cunha";
+	 p:PCountry "Atlantic Ocean";
+	 p:PRegion "Atlantic-S";
+	 p:PLatitude "-37.092";
+	 p:PLongitude "-12.28";
+	 p:PElev d:2060;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L403 p:PName "Tullu Moje";
+	 p:PCountry d:Ethiopia;
+	 p:PRegion "Africa-NE";
+	 p:PLatitude "8.158";
+	 p:PLongitude "39.13";
+	 p:PElev d:2349;
+	 p:PType "Pumice cone";
+	 p:PStatus d:Anthropology;
+	 p:PLast d:D2.
+d:L404 p:PName d:Tutupaca;
+	 p:PCountry d:Peru;
+	 p:PRegion d:Peru;
+	 p:PLatitude "-17.025";
+	 p:PLongitude "-70.358";
+	 p:PElev d:5815;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L405 p:PName d:Unnamed;
+	 p:PCountry "Arctic Ocean";
+	 p:PRegion "Arctic Ocean";
+	 p:PLatitude "88.27";
+	 p:PLongitude "-65.6";
+	 p:PElev "-1500";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L406 p:PName d:Unnamed;
+	 p:PCountry "United States";
+	 p:PRegion "Hawaiian Is";
+	 p:PLatitude "23.58";
+	 p:PLongitude "-163.83";
+	 p:PElev "-4000";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L407 p:PName d:Unnamed;
+	 p:PCountry d:Tonga;
+	 p:PRegion "Tonga-SW Pacific";
+	 p:PLatitude "-21.38";
+	 p:PLongitude "-175.65";
+	 p:PElev "-500";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L408 p:PName d:Unnamed;
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "48.08";
+	 p:PLongitude "153.33";
+	 p:PElev "-150";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L409 p:PName d:Unnamed;
+	 p:PCountry d:Tonga;
+	 p:PRegion "Tonga-SW Pacific";
+	 p:PLatitude "-21.07";
+	 p:PLongitude "-175.33";
+	 p:PElev d:0;
+	 p:PType "Not Volcanic";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L410 p:PName d:Vesuvius;
+	 p:PCountry d:Italy;
+	 p:PRegion d:Italy;
+	 p:PLatitude "40.821";
+	 p:PLongitude "14.426";
+	 p:PElev d:1281;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L411 p:PName d:Victory;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Guinea";
+	 p:PLatitude "-9.2";
+	 p:PLongitude "149.07";
+	 p:PElev d:1925;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L412 p:PName d:Visoke;
+	 p:PCountry d:Rwanda;
+	 p:PRegion "Africa-C";
+	 p:PLatitude "-1.47";
+	 p:PLongitude "29.492";
+	 p:PElev d:3711;
+	 p:PType d:Stratovolcano;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L413 p:PName d:Waiowa;
+	 p:PCountry "Papua New Guinea";
+	 p:PRegion "New Guinea";
+	 p:PLatitude "-9.57";
+	 p:PLongitude "149.075";
+	 p:PElev d:640;
+	 p:PType "Pyroclastic cone";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L414 p:PName d:Wrangell;
+	 p:PCountry "United States";
+	 p:PRegion "Alaska-E";
+	 p:PLatitude d:62;
+	 p:PLongitude "-144.02";
+	 p:PElev d:4317;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L415 p:PName d:Yunaska;
+	 p:PCountry "United States";
+	 p:PRegion "Aleutian Is";
+	 p:PLatitude "52.63";
+	 p:PLongitude "-170.63";
+	 p:PElev d:550;
+	 p:PType "Shield volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L416 p:PName d:Zao;
+	 p:PCountry d:Japan;
+	 p:PRegion "Honshu-Japan";
+	 p:PLatitude "38.15";
+	 p:PLongitude "140.45";
+	 p:PElev d:1841;
+	 p:PType "Complex volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L417 p:PName "Zavaritzki Caldera";
+	 p:PCountry d:Russia;
+	 p:PRegion "Kuril Is";
+	 p:PLatitude "46.925";
+	 p:PLongitude "151.95";
+	 p:PElev d:624;
+	 p:PType d:Caldera;
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L418 p:PName d:Zengyu;
+	 p:PCountry d:Taiwan;
+	 p:PRegion "Taiwan-N of";
+	 p:PLatitude "26.18";
+	 p:PLongitude "122.458";
+	 p:PElev "-418";
+	 p:PType "Submarine volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
+d:L419 p:PName d:Zhupanovsky;
+	 p:PCountry d:Russia;
+	 p:PRegion d:Kamchatka;
+	 p:PLatitude "53.59";
+	 p:PLongitude "159.147";
+	 p:PElev d:2958;
+	 p:PType "Compound volcano";
+	 p:PStatus d:Historical;
+	 p:PLast d:D2.
